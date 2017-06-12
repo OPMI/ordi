@@ -1,0 +1,820 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/foodon.owl#"
+     xml:base="http://purl.obolibrary.org/obo/foodon.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/foodon.owl">
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/foodon/releases/2017-04-14/foodon.owl"/>
+        <dc:contributor xml:lang="en">Damion Dooley</dc:contributor>
+        <dc:contributor xml:lang="en">William Hsiao</dc:contributor>
+        <dc:contributor xml:lang="en">Pier Buttigieg</dc:contributor>
+        <dc:contributor xml:lang="en">Robert Hohendorf</dc:contributor>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111">
+        <obo:IAO_0000111 xml:lang="en">editor preferred label</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">The concise, meaningful, and human-friendly name for a class or property preferred by the ontology developers. (US-English)</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <rdfs:label>editor preferred label</rdfs:label>
+        <rdfs:label xml:lang="en">editor preferred label</rdfs:label>
+        <rdfs:label>editor preferred term</rdfs:label>
+        <rdfs:label xml:lang="en">editor preferred term</rdfs:label>
+        <rdfs:label>editor preferred term~editor preferred label</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000114 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000114">
+        <obo:IAO_0000111 xml:lang="en">has curation status</obo:IAO_0000111>
+        <obo:IAO_0000119 xml:lang="en">OBI_0000281</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">has curation status</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <obo:IAO_0000111 xml:lang="en">definition</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">The official OBI definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <rdfs:label>definition</rdfs:label>
+        <rdfs:label xml:lang="en">definition</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
+        <rdfs:label>textual definition</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">textual definition</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119">
+        <obo:IAO_0000111 xml:lang="en">definition source</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Discussion on obo-discuss mailing-list, see http://bit.ly/hgm99w</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">definition source</rdfs:label>
+        <rdfs:label>definition_source</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/hasDbXref -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/hasDbXref"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/hasSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/hasSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
+        <rdfs:label xml:lang="en">database cross reference</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasSynonym">
+        <rdfs:label xml:lang="en">has synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
+        <rdfs:label xml:lang="en">label</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03450002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03450002">
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/foodon.owl"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <obo:hasDbXref>LANGUAL:G0002</obo:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: This term is for CLASSIFICATION ONLY; DO NOT USE term in indexing. Use a more precise narrower term.</rdfs:comment>
+        <rdfs:label xml:lang="en">cooking method</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03450004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03450004">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ORDI_0000194"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">Cooked at moderate to high levels of heat in which no liquid is added and only small amounts of fat may be added to prevent sticking.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/foodon.owl"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <obo:hasDbXref>LANGUAL:G0004</obo:hasDbXref>
+        <obo:hasSynonym xml:lang="en">dry cooked</obo:hasSynonym>
+        <rdfs:label xml:lang="en">cooked by dry heat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03450005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03450005">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03450004"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">Cooked without moisture, covered or uncovered, in an oven. *ROASTING* usually applies to meats or nuts.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/foodon.owl"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <obo:hasDbXref>LANGUAL:G0005</obo:hasDbXref>
+        <obo:hasSynonym xml:lang="en">roasted or baked</obo:hasSynonym>
+        <rdfs:label xml:lang="en">baked or roasted</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03450006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03450006">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03450004"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">Cooked without moisture under or over intense direct heat.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/foodon.owl"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <obo:hasDbXref>LANGUAL:G0006</obo:hasDbXref>
+        <obo:hasSynonym xml:lang="en">barbecued</obo:hasSynonym>
+        <obo:hasSynonym xml:lang="en">grilled</obo:hasSynonym>
+        <rdfs:label xml:lang="en">broiled or grilled</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03450007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03450007">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03450006"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">Cooked without moisture over direct heat from a charcoal fire.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/foodon.owl"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <obo:hasDbXref>LANGUAL:G0007</obo:hasDbXref>
+        <rdfs:label xml:lang="en">charcoal broiled</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03450008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03450008">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03450004"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">Cooked on a flat surface at medium heat with only a sufficient amount of fat used to prevent sticking.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/foodon.owl"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <obo:hasDbXref>LANGUAL:G0008</obo:hasDbXref>
+        <rdfs:label xml:lang="en">griddled</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03450009 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03450009">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03450004"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">Cooked by agitating the food over a dry, high heat source, resulting in exploding.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/foodon.owl"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <obo:hasDbXref>LANGUAL:G0009</obo:hasDbXref>
+        <rdfs:label xml:lang="en">popped</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03450010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03450010">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03450004"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">Cooked with direct heat until the surface of the food is browned, usually associated with bread or sandwiches.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/foodon.owl"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <obo:hasDbXref>LANGUAL:G0010</obo:hasDbXref>
+        <rdfs:label xml:lang="en">toasted</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03450011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03450011">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03450002"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">Cooked in a microwave oven.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/foodon.owl"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <obo:hasDbXref>LANGUAL:G0011</obo:hasDbXref>
+        <rdfs:label xml:lang="en">cooked by microwave</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03450012 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03450012">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ORDI_0000194"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">Cooked in varying amounts of water, water-based liquid or steam.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/foodon.owl"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <obo:hasDbXref>LANGUAL:G0012</obo:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: If the food absorbs a significant amount of water, also used *REHYDRATED* or *WATER ADDED*.</rdfs:comment>
+        <rdfs:label xml:lang="en">cooked by moist heat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03450013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03450013">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03450012"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/foodon.owl"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <obo:hasDbXref>LANGUAL:G0013</obo:hasDbXref>
+        <rdfs:label xml:lang="en">cooked in water or water-based liquid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03450014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03450014">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03450013"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">Cooked in boiling water at 100 degrees C (212 degrees F).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/foodon.owl"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <obo:hasDbXref>LANGUAL:G0014</obo:hasDbXref>
+        <rdfs:label xml:lang="en">boiled</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03450015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03450015">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03450014"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">Cooked in boiling water at 212 degrees F.; water that is not absorbed into the food product is discarded after cooking.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/foodon.owl"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <obo:hasDbXref>LANGUAL:G0015</obo:hasDbXref>
+        <rdfs:label xml:lang="en">boiled and drained</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03450016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03450016">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03450015"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">Cooked in boiling water at 212 degrees F. Liquid to solid ratio is greater than 2:1.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/foodon.owl"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <obo:hasDbXref>LANGUAL:G0016</obo:hasDbXref>
+        <rdfs:label xml:lang="en">boiled in large amount of liquid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03450017 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03450017">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03450015"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/foodon.owl"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <obo:hasDbXref>LANGUAL:G0017</obo:hasDbXref>
+        <rdfs:label xml:lang="en">boiled in small amount of liquid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03450018 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03450018">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03450014"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">Cooked in boiling water at 212 degrees F. The water incorporates itself into the product being cooked or is not discarded when cooking is through.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/foodon.owl"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <obo:hasDbXref>LANGUAL:G0018</obo:hasDbXref>
+        <rdfs:label xml:lang="en">boiled and undrained</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03450019 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03450019">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03450013"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">Browned initially in fat and then tightly covered and cooked over low heat in a small amount of water.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/foodon.owl"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <obo:hasDbXref>LANGUAL:G0019</obo:hasDbXref>
+        <rdfs:label xml:lang="en">braised</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03450020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03450020">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03450013"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">Cooked in a moderate amount of liquid at just below the boiling point.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/foodon.owl"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <obo:hasDbXref>LANGUAL:G0020</obo:hasDbXref>
+        <obo:hasSynonym xml:lang="en">poached</obo:hasSynonym>
+        <obo:hasSynonym xml:lang="en">stewed</obo:hasSynonym>
+        <rdfs:label xml:lang="en">simmered, poached or stewed</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03450021 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03450021">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03450012"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/foodon.owl"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <obo:hasDbXref>LANGUAL:G0021</obo:hasDbXref>
+        <rdfs:label xml:lang="en">cooked in steam</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03450022 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03450022">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03450021"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">Cooked in a pressure cooker.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/foodon.owl"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <obo:hasDbXref>LANGUAL:G0022</obo:hasDbXref>
+        <obo:hasSynonym xml:lang="en">pressure-cooked</obo:hasSynonym>
+        <rdfs:label xml:lang="en">steamed with pressure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03450023 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03450023">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03450021"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">Cooked suspended above boiling water.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/foodon.owl"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <obo:hasDbXref>LANGUAL:G0023</obo:hasDbXref>
+        <rdfs:label xml:lang="en">steamed without pressure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03450024 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03450024">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03450002"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/foodon.owl"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <obo:hasDbXref>LANGUAL:G0024</obo:hasDbXref>
+        <obo:hasSynonym xml:lang="en">fried</obo:hasSynonym>
+        <rdfs:label xml:lang="en">cooked with fat or oil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03450025 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03450025">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03450024"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">Cooked by adding fat or oil to those foods that do not contain fat or oil that would render during the cooking process.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/foodon.owl"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <obo:hasDbXref>LANGUAL:G0025</obo:hasDbXref>
+        <obo:hasSynonym xml:lang="en">oil roasted</obo:hasSynonym>
+        <rdfs:label xml:lang="en">cooked with added fat or oil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03450026 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03450026">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03450025"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">Cooked with sufficient fat or oil to coat and moisten the food being prepared, but not cooked in enough fat or oil to immerse the food. Use *GRIDDLED* when only enough fat or oil is used to prevent sticking.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/foodon.owl"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <obo:hasDbXref>LANGUAL:G0026</obo:hasDbXref>
+        <rdfs:label xml:lang="en">cooked in small amount of fat or oil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03450027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03450027">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03450026"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">Cooked in a very small amount of very hot fat, turning and browning the food on all sides.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/foodon.owl"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <obo:hasDbXref>LANGUAL:G0027</obo:hasDbXref>
+        <rdfs:label xml:lang="en">sauteed</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03450028 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03450028">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03450026"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">Cooked by frying foods quickly over high heat, stirring constantly. Only enough cooking oil is used to coat the bottom of the pan.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/foodon.owl"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <obo:hasDbXref>LANGUAL:G0028</obo:hasDbXref>
+        <rdfs:label xml:lang="en">stir-fried</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03450029 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03450029">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03450025"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">Cooked in hot fat or oil deep enough to immerse the food entirely.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/foodon.owl"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <obo:hasDbXref>LANGUAL:G0029</obo:hasDbXref>
+        <rdfs:label xml:lang="en">deep-fried</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03450030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03450030">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03450024"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">Cooked in fat or oil rendered from the food being prepared.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/foodon.owl"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <obo:hasDbXref>LANGUAL:G0030</obo:hasDbXref>
+        <rdfs:label xml:lang="en">cooked with inherent fat or oil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03450031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03450031">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03450032"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/foodon.owl"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <obo:hasDbXref>LANGUAL:G0031</obo:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Used when the food is cooked in a closed container such as a pouch immersed in hot water or steam.</rdfs:comment>
+        <rdfs:label xml:lang="en">cooked in container immersed in water or steam</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03450032 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03450032">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03450002"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">The method by which heat is transferred to the outside of the cooking container. The most frequently used method of placing the container on an open flame, a hot metal surface or into an oven are not indexed here.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/foodon.owl"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <obo:hasDbXref>LANGUAL:G0032</obo:hasDbXref>
+        <rdfs:label xml:lang="en">method of heating container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03450033 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03450033">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03450032"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">Cooked in a container that is placed in another container filled with boiling water. See also *Cooked in water bath*.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/foodon.owl"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <obo:hasDbXref>LANGUAL:G0033</obo:hasDbXref>
+        <obo:hasSynonym xml:lang="en">cooked over boiling water</obo:hasSynonym>
+        <obo:hasSynonym xml:lang="en">double boiler cooked</obo:hasSynonym>
+        <rdfs:label xml:lang="en">cooked in double boiler</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03450034 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03450034">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03450032"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">Cooked in a container that is placed in another container filled with water kept near the boiling point. See also *Cooked in double boiler*.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/foodon.owl"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <obo:hasDbXref>LANGUAL:G0034</obo:hasDbXref>
+        <obo:hasSynonym xml:lang="en">bain-marie cooked</obo:hasSynonym>
+        <rdfs:label xml:lang="en">cooked in water bath</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03450035 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03450035">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03450025"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">A chinese cooking technique similar to sauteing in which thick slices or chunks of floured or battered ingredients are slow seared over moderate to low heat. (Kuo, The key to chinese cooking, Knopf, 1977, p.87)</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/foodon.owl"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <obo:hasDbXref>LANGUAL:G0035</obo:hasDbXref>
+        <rdfs:label xml:lang="en">shallow fried</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03450036 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03450036">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03450013"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">Extracting flavor and other components from food sources by immersion in water, usually at near-boiling temperature.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/foodon.owl"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <obo:hasDbXref>LANGUAL:G0036</obo:hasDbXref>
+        <rdfs:label xml:lang="en">steeped</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03450037 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03450037">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03450002"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">Reheating is a simple process to bring an already fully cooked product to serving temperature. Do not use for a process that completes the cooking of a partially cooked food.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/foodon.owl"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <obo:hasDbXref>LANGUAL:G0037</obo:hasDbXref>
+        <rdfs:label xml:lang="en">reheated</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03450038 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03450038">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03450037"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/foodon.owl"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <obo:hasDbXref>LANGUAL:G0038</obo:hasDbXref>
+        <rdfs:label xml:lang="en">reheated by microwave</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03450039 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03450039">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03450037"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/foodon.owl"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <obo:hasDbXref>LANGUAL:G0039</obo:hasDbXref>
+        <rdfs:label xml:lang="en">reheated by dry heat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03450040 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03450040">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03450037"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/foodon.owl"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <obo:hasDbXref>LANGUAL:G0040</obo:hasDbXref>
+        <rdfs:label xml:lang="en">reheated by boil-in-bag</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03450041 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03450041">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03450037"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/foodon.owl"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <obo:hasDbXref>LANGUAL:G0041</obo:hasDbXref>
+        <rdfs:label xml:lang="en">reheated in pan or cooking utensil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03450042 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03450042">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03450002"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">A method of precooking food where a liquid is heated to just below the boiling point. Often used to retard the spoiling of milk. Also, to plunge food such as fruit or vegetables into boiling water (or to pour boiling water over them) in order to loosen the skin and facilitate peeling.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/foodon.owl"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <obo:hasDbXref>LANGUAL:G0042</obo:hasDbXref>
+        <obo:hasSynonym xml:lang="en">blanched or scalded</obo:hasSynonym>
+        <rdfs:comment xml:lang="en">LanguaL curation note: This terms is used for foods in the prepartion process, e.g. preparation in the kitchen of peeled tomatoes, the scalding loosens the tomato skin.
+For industrial processing, e.g. in the process inactivation of enzymatic activity, use the term *BLANCHED [J0175]*. This process is normally always used in the processing of frozen vegetables.</rdfs:comment>
+        <rdfs:label xml:lang="en">scalded or blanched</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03450043 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03450043">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03450014"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">Double steaming, also called double boiling, is a Chinese cooking technique to prepare delicate food such as bird nests, shark fins, etc. The food is covered with water and put in a covered ceramic jar and the jar is then steamed for several hours. This technique ensures there is no loss of liquid or moisture (its essences) from the food being cooked, hence it is often used with expensive ingredients like Chinese herbal medicines. [Wikipedia]</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/foodon.owl"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <obo:hasDbXref>LANGUAL:G0043</obo:hasDbXref>
+        <obo:hasSynonym xml:lang="en">double boiling</obo:hasSynonym>
+        <rdfs:label xml:lang="en">double steamed</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03450044 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03450044">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03450006"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">Rotisserie is a style of roasting where meat is skewered on a spit and revolves over a flame or other heat source. The rotation cooks the meat evenly in its own juices and allows easy access for continuous basting if desired. [Wikipedia]</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/foodon.owl"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <obo:hasDbXref>LANGUAL:G0044</obo:hasDbXref>
+        <rdfs:label xml:lang="en">rotisserie</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03450045 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03450045">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03450006"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">Searing (or pan searing) is a technique used in grilling, roasting, braising, sautéing, etc. that cooks the surface of the food (usually meat, poultry or fish) at high temperature so that a brownish crust forms by Maillard reaction and denaturation of proteins. A similar technique, browning, is typically used to sear or brown all sides of a particular piece of meat, fish, poultry, etc. before finishing it in the oven. To obtain the desired brown crust, the meat surface must exceed 300 °F (150 °C), so searing requires the meat surface be free of water, which boils at around 212 °F (100 °C).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/foodon.owl"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <obo:hasDbXref>LANGUAL:G0045</obo:hasDbXref>
+        <rdfs:label xml:lang="en">seared</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03450046 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03450046">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03450005"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/foodon.owl"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <obo:hasDbXref>LANGUAL:G0046</obo:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Use when a pie crust or other pastry is baked without the filling.</rdfs:comment>
+        <rdfs:label xml:lang="en">blind baked</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03450047 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03450047">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03450025"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/foodon.owl"/>
+        <obo:IAO_0000412>http://langual.org</obo:IAO_0000412>
+        <obo:hasDbXref>LANGUAL:G0047</obo:hasDbXref>
+        <rdfs:comment xml:lang="en">LanguaL curation note: Use when e.g. meat and cooking oil are brought to high temperatures while pressure is held high enough that the water within is prevented from boiling off.</rdfs:comment>
+        <rdfs:label xml:lang="en">pressure fried</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ORDI_0000194 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ORDI_0000194"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000122 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000122">
+        <obo:IAO_0000115 xml:lang="en">Class has undergone final review, is ready for use, and will be included in the next release. Any class lacking &quot;ready_for_release&quot; should be considered likely to change place in hierarchy, have its definition refined, or be obsoleted in the next release.  Those classes deemed &quot;ready_for_release&quot; will also derived from a chain of ancestor classes that are also &quot;ready_for_release.&quot;</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">ready for release</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000428 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000428">
+        <obo:IAO_0000115 xml:lang="en">A term that is metadata complete, has been reviewed, and problems have been identified that require discussion before release. Such a term requires editor note(s) to identify the outstanding issues.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">requires discussion</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+

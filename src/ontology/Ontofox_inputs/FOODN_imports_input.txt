@@ -1,0 +1,22 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/ordi/FOODON_imports.owl
+
+[Source ontology]
+FOODON
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/FOODON_03450002 #cooking method
+includeAllChildren
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/FOODON_03450002 #cooking method
+subClassOf http://purl.obolibrary.org/obo/BFO_0000017 #realizable entity
+
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAxiomsRecursively
+
+[Source annotation URIs to be excluded]

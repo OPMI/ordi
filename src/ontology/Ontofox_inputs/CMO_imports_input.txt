@@ -1,0 +1,66 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/ordi/CMO_imports.owl
+
+[Source ontology]
+CMO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/CMO_0000364 #complete blood cell count
+http://purl.obolibrary.org/obo/CMO_0000370 #blood neutrophil count to total leukocyte count ratio
+http://purl.obolibrary.org/obo/CMO_0000371 #blood lymphocyte count to total leukocyte count ratio
+http://purl.obolibrary.org/obo/CMO_0000369 #blood eosinophil count to total leukocyte count ratio
+http://purl.obolibrary.org/obo/CMO_0000365 # total white blood cell count
+http://purl.obolibrary.org/obo/CMO_0000030 #blood neutrophil count
+http://purl.obolibrary.org/obo/CMO_0000031 # blood lymphocyte count
+http://purl.obolibrary.org/obo/CMO_0000025 #red blood cell count
+http://purl.obolibrary.org/obo/CMO_0000588 #plasma hemoglobin level
+http://purl.obolibrary.org/obo/CMO_0000029 #platelet count
+http://purl.obolibrary.org/obo/CMO_0000575 #serum alanine aminotransferase activity level 
+http://purl.obolibrary.org/obo/CMO_0000043 #plasma aspartate aminotransferase activity level
+http://purl.obolibrary.org/obo/CMO_0002241 #serum gamma-glutamyltransferase activity level
+http://purl.obolibrary.org/obo/CMO_0000054 #plasma total protein level
+http://purl.obolibrary.org/obo/CMO_0000550 #serum albumin level
+http://purl.obolibrary.org/obo/CMO_0002334 #total plasma bilirubin level
+http://purl.obolibrary.org/obo/CMO_0000048 #direct plasma bilirubin evel
+http://purl.obolibrary.org/obo/CMO_0000047 #indirect plasma bilirubin level
+http://purl.obolibrary.org/obo/CMO_0000586 #plasma urea nitrogen level
+http://purl.obolibrary.org/obo/CMO_0000538 #blood creatinine level
+http://purl.obolibrary.org/obo/CMO_0000501 #blood uric acid level
+http://purl.obolibrary.org/obo/CMO_0000050 #blood lipid measurement
+http://purl.obolibrary.org/obo/CMO_0002280 #blood cholesterol level
+http://purl.obolibrary.org/obo/CMO_0000548 #plasma triglyceride level
+http://purl.obolibrary.org/obo/CMO_0000042 #plasma glucose level
+http://purl.obolibrary.org/obo/CMO_0000496 #blood potassium level
+http://purl.obolibrary.org/obo/CMO_0000500 #serum sodium level
+http://purl.obolibrary.org/obo/CMO_0000225 #arterial blood gas measurement
+http://purl.obolibrary.org/obo/CMO_0000379 #blood pH
+http://purl.obolibrary.org/obo/CMO_0000381 #partial pressure of blood oxygen
+http://purl.obolibrary.org/obo/CMO_0000283 #partial pressure of blood carbon dioxide
+http://purl.obolibrary.org/obo/CMO_0000062 #plasma bicarbonate level
+http://purl.obolibrary.org/obo/CMO_0001325 #base excess
+http://purl.obolibrary.org/obo/CMO_0000251 #Forced Vital Capacity
+http://purl.obolibrary.org/obo/CMO_0000253 #Peak expiratory flow
+
+http://purl.obolibrary.org/obo/CMO_0000023 #blood chemistry measurement
+http://purl.obolibrary.org/obo/CMO_0000035 #blood measurement
+http://purl.obolibrary.org/obo/CMO_0000050 #blood lipid measurement
+http://purl.obolibrary.org/obo/CMO_0000094 #respiratory system measurement
+http://purl.obolibrary.org/obo/CMO_0000225 #arterial blood gas measurement
+
+
+includeAllChildren
+
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/CMO_0000000 #clinical measurement
+subClassOf http://purl.obolibrary.org/obo/IAO_0000109 #measurement datum
+
+[Source term retrieval setting]
+includeComputedIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]
+
+[Source annotation URIs to be excluded]

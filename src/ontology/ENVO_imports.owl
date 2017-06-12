@@ -1,0 +1,1819 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY obo "http://purl.obolibrary.org/obo/" >
+    <!ENTITY dc "http://purl.org/dc/elements/1.1/" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY oboInOwl "http://www.geneontology.org/formats/oboInOwl#" >
+]>
+
+
+<rdf:RDF xmlns="&obo;envo.owl#"
+     xml:base="&obo;envo.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <owl:Ontology rdf:about="&obo;envo.owl">
+        <obo:default-namespace rdf:datatype="&xsd;string">ENVO</obo:default-namespace>
+        <rdfs:comment rdf:datatype="&xsd;string">ENVO is an ontology which represents knowledge about environments,environmental processes, ecosystems, habitats, and related entities. It interoperates with other ontologies in the OBO Foundry and Library. Please see www.environmentontology.org for more info.</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Includes Ontology(OntologyID(OntologyIRI(&lt;http://purl.obolibrary.org/obo/envo/imports/bfo_import.owl&gt;))) [Axioms: 37 Logical Axioms: 10]</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Includes Ontology(OntologyID(OntologyIRI(&lt;http://purl.obolibrary.org/obo/envo/imports/chebi_import.owl&gt;))) [Axioms: 2403 Logical Axioms: 1023]</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Includes Ontology(OntologyID(OntologyIRI(&lt;http://purl.obolibrary.org/obo/envo/imports/foodon_import.owl&gt;))) [Axioms: 61 Logical Axioms: 7]</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Includes Ontology(OntologyID(OntologyIRI(&lt;http://purl.obolibrary.org/obo/envo/imports/go_import.owl&gt;))) [Axioms: 270 Logical Axioms: 76]</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Includes Ontology(OntologyID(OntologyIRI(&lt;http://purl.obolibrary.org/obo/envo/imports/imports/po_import.owl&gt;))) [Axioms: 94 Logical Axioms: 9]</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Includes Ontology(OntologyID(OntologyIRI(&lt;http://purl.obolibrary.org/obo/envo/imports/ncbitaxon_import.owl&gt;))) [Axioms: 520 Logical Axioms: 120]</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Includes Ontology(OntologyID(OntologyIRI(&lt;http://purl.obolibrary.org/obo/envo/imports/pato_import.owl&gt;))) [Axioms: 774 Logical Axioms: 294]</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Includes Ontology(OntologyID(OntologyIRI(&lt;http://purl.obolibrary.org/obo/envo/imports/pco_bfo_bridge.owl&gt;))) [Axioms: 3 Logical Axioms: 1]</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Includes Ontology(OntologyID(OntologyIRI(&lt;http://purl.obolibrary.org/obo/envo/imports/pco_import.owl&gt;))) [Axioms: 21 Logical Axioms: 3]</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Includes Ontology(OntologyID(OntologyIRI(&lt;http://purl.obolibrary.org/obo/envo/imports/ro_import.owl&gt;))) [Axioms: 1163 Logical Axioms: 291]</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Includes Ontology(OntologyID(OntologyIRI(&lt;http://purl.obolibrary.org/obo/envo/imports/uberon_import.owl&gt;))) [Axioms: 24080 Logical Axioms: 4668]</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Includes Ontology(OntologyID(OntologyIRI(&lt;http://purl.obolibrary.org/obo/envo/modules/entity_attribute.owl&gt;))) [Axioms: 67 Logical Axioms: 10]</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Includes Ontology(OntologyID(OntologyIRI(&lt;http://purl.obolibrary.org/obo/envo/modules/entity_attribute_location.owl&gt;))) [Axioms: 119 Logical Axioms: 20]</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Includes Ontology(OntologyID(OntologyIRI(&lt;http://purl.obolibrary.org/obo/envo/modules/entity_quality_location.owl&gt;))) [Axioms: 45 Logical Axioms: 6]</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Includes Ontology(OntologyID(OntologyIRI(&lt;http://purl.obolibrary.org/obo/envo/modules/process_attribute.owl&gt;))) [Axioms: 20 Logical Axioms: 2]</rdfs:comment>
+        <owl:versionIRI rdf:resource="&obo;envo/releases/2017-05-10/envo.owl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000111">
+        <rdfs:label>editor preferred term~editor preferred label</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000112 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000112">
+        <rdfs:label>example of usage</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000114 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000114">
+        <rdfs:label>has curation status</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000115">
+        <rdfs:label rdf:datatype="&xsd;string">definition</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000116 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000116">
+        <rdfs:label>editor note</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000117 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000117">
+        <rdfs:label>term editor</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000118">
+        <rdfs:label>alternative term</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000119">
+        <rdfs:label>definition source</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000232 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000232">
+        <rdfs:label>curator note</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000424 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000424">
+        <rdfs:label>expand expression to</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000589 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000589"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0001900 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;RO_0001900">
+        <rdfs:label>temporal interpretation</rdfs:label>
+        <obo:IAO_0000115>An assertion that holds between an OWL Object Property and a temporal interpretation that elucidates how OWL Class Axioms that use this property are to be interpreted in a temporal context.</obo:IAO_0000115>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/created_by -->
+
+    <owl:AnnotationProperty rdf:about="&obo;created_by"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/hasBroadSynonym -->
+
+    <owl:AnnotationProperty rdf:about="&obo;hasBroadSynonym"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/hasDbXref -->
+
+    <owl:AnnotationProperty rdf:about="&obo;hasDbXref"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="&obo;hasExactSynonym"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/hasNarrowSynonym -->
+
+    <owl:AnnotationProperty rdf:about="&obo;hasNarrowSynonym"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/hasOBONamespace -->
+
+    <owl:AnnotationProperty rdf:about="&obo;hasOBONamespace"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/hasRelatedSynonym -->
+
+    <owl:AnnotationProperty rdf:about="&obo;hasRelatedSynonym"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/id -->
+
+    <owl:AnnotationProperty rdf:about="&obo;id"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/inSubset -->
+
+    <owl:AnnotationProperty rdf:about="&obo;inSubset"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="&dc;creator"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#created_by -->
+
+    <owl:AnnotationProperty rdf:about="&oboInOwl;created_by"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym -->
+
+    <owl:AnnotationProperty rdf:about="&oboInOwl;hasBroadSynonym">
+        <rdfs:label rdf:datatype="&xsd;string">has_broad_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+    <owl:AnnotationProperty rdf:about="&oboInOwl;hasDbXref">
+        <rdfs:label rdf:datatype="&xsd;string">database_cross_reference</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="&oboInOwl;hasExactSynonym">
+        <rdfs:label rdf:datatype="&xsd;string">has_exact_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym -->
+
+    <owl:AnnotationProperty rdf:about="&oboInOwl;hasNarrowSynonym">
+        <rdfs:label rdf:datatype="&xsd;string">has_narrow_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
+
+    <owl:AnnotationProperty rdf:about="&oboInOwl;hasOBONamespace">
+        <rdfs:label rdf:datatype="&xsd;string">has_obo_namespace</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
+
+    <owl:AnnotationProperty rdf:about="&oboInOwl;hasRelatedSynonym">
+        <rdfs:label rdf:datatype="&xsd;string">has_related_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+    <owl:AnnotationProperty rdf:about="&oboInOwl;id"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
+
+    <owl:AnnotationProperty rdf:about="&oboInOwl;inSubset">
+        <rdfs:label rdf:datatype="&xsd;string">in_subset</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
+
+    <owl:AnnotationProperty rdf:about="&rdfs;comment"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <owl:AnnotationProperty rdf:about="&rdfs;label"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000050 -->
+
+    <owl:ObjectProperty rdf:about="&obo;BFO_0000050">
+        <rdf:type rdf:resource="&owl;TransitiveProperty"/>
+        <rdfs:label xml:lang="en">part of</rdfs:label>
+        <obo:IAO_0000116 xml:lang="en">Everything is part of itself. Any part of any part of a thing is itself part of that thing. Two distinct things cannot be part of each other.</obo:IAO_0000116>
+        <rdfs:seeAlso>http://www.obofoundry.org/ro/#OBO_REL:part_of</rdfs:seeAlso>
+        <obo:IAO_0000116 xml:lang="en">Occurrents are not subject to change and so parthood between occurrents holds for all the times that the part exists. Many continuants are subject to change, so parthood between continuants will only hold at certain times, but this is difficult to specify in OWL. See https://code.google.com/p/obo-relations/wiki/ROAndTime</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">Parthood requires the part and the whole to have compatible classes: only an occurrent can be part of an occurrent; only a process can be part of a process; only a continuant can be part of a continuant; only an independent continuant can be part of an independent continuant; only an immaterial entity can be part of an immaterial entity; only a specifically dependent continuant can be part of a specifically dependent continuant; only a generically dependent continuant can be part of a generically dependent continuant. (This list is not exhaustive.)
+
+A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An occurrent cannot be part of a continuant: use &apos;has participant&apos;. A material entity cannot be part of an immaterial entity: use &apos;has location&apos;. A specifically dependent continuant cannot be part of an independent continuant: use &apos;inheres in&apos;. An independent continuant cannot be part of a specifically dependent continuant: use &apos;bearer of&apos;.</obo:IAO_0000116>
+        <obo:IAO_0000115 xml:lang="en">a core relation that holds between a part and its whole</obo:IAO_0000115>
+        <obo:IAO_0000111 xml:lang="en">is part of</obo:IAO_0000111>
+        <obo:IAO_0000112 xml:lang="en">my brain is part of my body (continuant parthood, two material entities)</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">my stomach cavity is part of my stomach (continuant parthood, immaterial entity is part of material entity)</obo:IAO_0000112>
+        <obo:IAO_0000118 xml:lang="en">part_of</obo:IAO_0000118>
+        <obo:IAO_0000112 xml:lang="en">this day is part of this year (occurrent parthood)</obo:IAO_0000112>
+        <rdfs:seeAlso rdf:resource="http://ontologydesignpatterns.org/wiki/Community:Parts_and_Collections"/>
+        <rdfs:seeAlso rdf:resource="http://ontologydesignpatterns.org/wiki/Submissions:PartOf"/>
+        <owl:inverseOf rdf:resource="&obo;BFO_0000051"/>
+        <obo:RO_0001900 rdf:resource="&obo;RO_0001901"/>
+        <rdfs:subPropertyOf rdf:resource="&obo;RO_0002131"/>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000051 -->
+
+    <owl:ObjectProperty rdf:about="&obo;BFO_0000051">
+        <rdf:type rdf:resource="&owl;TransitiveProperty"/>
+        <rdfs:label xml:lang="en">has part</rdfs:label>
+        <obo:IAO_0000116 xml:lang="en">Everything has itself as a part. Any part of any part of a thing is itself part of that thing. Two distinct things cannot have each other as a part.</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">Occurrents are not subject to change and so parthood between occurrents holds for all the times that the part exists. Many continuants are subject to change, so parthood between continuants will only hold at certain times, but this is difficult to specify in OWL. See https://code.google.com/p/obo-relations/wiki/ROAndTime</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">Parthood requires the part and the whole to have compatible classes: only an occurrent have an occurrent as part; only a process can have a process as part; only a continuant can have a continuant as part; only an independent continuant can have an independent continuant as part; only a specifically dependent continuant can have a specifically dependent continuant as part; only a generically dependent continuant can have a generically dependent continuant as part. (This list is not exhaustive.)
+
+A continuant cannot have an occurrent as part: use &apos;participates in&apos;. An occurrent cannot have a continuant as part: use &apos;has participant&apos;. An immaterial entity cannot have a material entity as part: use &apos;location of&apos;. An independent continuant cannot have a specifically dependent continuant as part: use &apos;bearer of&apos;. A specifically dependent continuant cannot have an independent continuant as part: use &apos;inheres in&apos;.</obo:IAO_0000116>
+        <obo:IAO_0000115 xml:lang="en">a core relation that holds between a whole and its part</obo:IAO_0000115>
+        <obo:IAO_0000111 xml:lang="en">has part</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">has_part</obo:IAO_0000118>
+        <obo:IAO_0000112 xml:lang="en">my body has part my brain (continuant parthood, two material entities)</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">my stomach has part my stomach cavity (continuant parthood, material entity has part immaterial entity)</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">this year has part this day (occurrent parthood)</obo:IAO_0000112>
+        <obo:RO_0001900 rdf:resource="&obo;RO_0001901"/>
+        <rdfs:subPropertyOf rdf:resource="&obo;RO_0002131"/>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000053 -->
+
+    <owl:ObjectProperty rdf:about="&obo;RO_0000053">
+        <rdfs:label xml:lang="en">bearer of</rdfs:label>
+        <obo:IAO_0000116 xml:lang="en">A bearer can have many dependents, and its dependents can exist for different periods of time, but none of its dependents can exist when the bearer does not exist.</obo:IAO_0000116>
+        <obo:IAO_0000115 xml:lang="en">a relation between an independent continuant (the bearer) and a specifically dependent continuant (the dependent), in which the dependent specifically depends on the bearer for its existence</obo:IAO_0000115>
+        <obo:IAO_0000111 xml:lang="en">bearer of</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">bearer_of</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">is bearer of</obo:IAO_0000118>
+        <obo:IAO_0000112 xml:lang="en">this apple is bearer of this red color</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">this vase is bearer of this fragility</obo:IAO_0000112>
+        <rdfs:range rdf:resource="&obo;BFO_0000020"/>
+        <obo:RO_0001900 rdf:resource="&obo;RO_0001901"/>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000086 -->
+
+    <owl:ObjectProperty rdf:about="&obo;RO_0000086">
+        <rdfs:label xml:lang="en">has quality</rdfs:label>
+        <obo:IAO_0000116 xml:lang="en">A bearer can have many qualities, and its qualities can exist for different periods of time, but none of its qualities can exist when the bearer does not exist.</obo:IAO_0000116>
+        <obo:IAO_0000115 xml:lang="en">a relation between an independent continuant (the bearer) and a quality, in which the quality specifically depends on the bearer for its existence</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">has_quality</obo:IAO_0000118>
+        <obo:IAO_0000112 xml:lang="en">this apple has quality this red color</obo:IAO_0000112>
+        <rdfs:range rdf:resource="&obo;BFO_0000019"/>
+        <rdfs:subPropertyOf rdf:resource="&obo;RO_0000053"/>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0001000 -->
+
+    <owl:ObjectProperty rdf:about="&obo;RO_0001000">
+        <rdfs:label xml:lang="en">derives from</rdfs:label>
+        <obo:IAO_0000116 xml:lang="en">This is a very general relation. More specific relations are preferred when applicable, such as &apos;directly develops from&apos;.</obo:IAO_0000116>
+        <obo:IAO_0000232>This relation is taken from the RO2005 version of RO. It may be obsoleted and replaced by relations with different definitions. See also the &apos;develops from&apos; family of relations.</obo:IAO_0000232>
+        <obo:IAO_0000115 xml:lang="en">a relation between two distinct material entities, the new entity and the old entity, in which the new entity begins to exist when the old entity ceases to exist, and the new entity inherits the significant portion of the matter of the old entity</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">derives_from</obo:IAO_0000118>
+        <obo:IAO_0000112 xml:lang="en">this cell derives from this parent cell (cell division)</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">this nucleus derives from this parent nucleus (nuclear division)</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
+        <owl:inverseOf rdf:resource="&obo;RO_0001001"/>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+        <obo:inSubset rdf:resource="&obo;ro/subsets#ro-eco"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0001001 -->
+
+    <owl:ObjectProperty rdf:about="&obo;RO_0001001">
+        <rdfs:label xml:lang="en">derives into</rdfs:label>
+        <obo:IAO_0000116 xml:lang="en">This is a very general relation. More specific relations are preferred when applicable, such as &apos;directly develops into&apos;. To avoid making statements about a future that may not come to pass, it is often better to use the backward-looking &apos;derives from&apos; rather than the forward-looking &apos;derives into&apos;.</obo:IAO_0000116>
+        <obo:IAO_0000115 xml:lang="en">a relation between two distinct material entities, the old entity and the new entity, in which the new entity begins to exist when the old entity ceases to exist, and the new entity inherits the significant portion of the matter of the old entity</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">derives_into</obo:IAO_0000118>
+        <obo:IAO_0000112 xml:lang="en">this parent cell derives into this cell (cell division)</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">this parent nucleus derives into this nucleus (nuclear division)</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+        <obo:inSubset rdf:resource="&obo;ro/subsets#ro-eco"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002131 -->
+
+    <owl:ObjectProperty rdf:about="&obo;RO_0002131">
+        <rdfs:label xml:lang="en">overlaps</rdfs:label>
+        <obo:IAO_0000424>http://purl.obolibrary.org/obo/BFO_0000051 some (http://purl.obolibrary.org/obo/BFO_0000050 some ?Y)</obo:IAO_0000424>
+        <obo:IAO_0000115>x overlaps y if and only if there exists some z such that x has part z and z part of y</obo:IAO_0000115>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
+        <obo:RO_0001900 rdf:resource="&obo;RO_0001901"/>
+        <rdfs:subPropertyOf rdf:resource="&obo;RO_0002323"/>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+        <obo:inSubset rdf:resource="&obo;ro/subsets#ro-eco"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="&obo;BFO_0000050"/>
+            <rdf:Description rdf:about="&obo;BFO_0000050"/>
+        </owl:propertyChainAxiom>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="&obo;BFO_0000051"/>
+            <rdf:Description rdf:about="&obo;RO_0002131"/>
+        </owl:propertyChainAxiom>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="&obo;BFO_0000051"/>
+            <rdf:Description rdf:about="&obo;BFO_0000050"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002323 -->
+
+    <owl:ObjectProperty rdf:about="&obo;RO_0002323">
+        <rdfs:label xml:lang="en">mereotopologically related to</rdfs:label>
+        <obo:IAO_0000115>A mereological relationship or a topological relationship</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
+        <obo:IAO_0000232>Do not use this relation directly. It is ended as a grouping for a diverse set of relations, all involving parthood or connectivity relationships</obo:IAO_0000232>
+        <obo:RO_0001900 rdf:resource="&obo;RO_0001901"/>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002473 -->
+
+    <owl:ObjectProperty rdf:about="&obo;RO_0002473">
+        <rdfs:label>composed primarily of</rdfs:label>
+        <obo:IAO_0000112>&apos;otolith organ&apos; SubClassOf &apos;composed primarily of&apos; some &apos;calcium carbonate&apos;</obo:IAO_0000112>
+        <obo:IAO_0000115>x composed_primarily_of y if and only if more than half of the mass of x is made from y or units of the same type as y.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
+        <rdfs:subPropertyOf rdf:resource="&obo;BFO_0000051"/>
+        <obo:RO_0001900 rdf:resource="&obo;RO_0001901"/>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+        <obo:inSubset rdf:resource="&obo;ro/subsets#ro-eco"/>
+        <obo:IAO_0000119 rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/22293552"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000002 -->
+
+    <owl:Class rdf:about="&obo;BFO_0000002">
+        <rdfs:label xml:lang="en">continuant</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">An entity that exists in full at any time in which it exists at all, persists through time while maintaining its identity and has no temporal parts.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000019 -->
+
+    <owl:Class rdf:about="&obo;BFO_0000019">
+        <rdfs:label xml:lang="en">quality</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000020"/>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000020 -->
+
+    <owl:Class rdf:about="&obo;BFO_0000020">
+        <rdfs:label xml:lang="en">specifically dependent continuant</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000002"/>
+        <obo:IAO_0000115 xml:lang="en">A continuant that inheres in or is borne by other entities. Every instance of A requires some specific instance of B which must always be the same.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000040 -->
+
+    <owl:Class rdf:about="&obo;BFO_0000040">
+        <rdfs:label xml:lang="en">material entity</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">An independent continuant that is spatially extended whose identity is independent of that of other entities and can be maintained through time.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16183 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_16183">
+        <rdfs:label rdf:datatype="&xsd;string">methane</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_18310"/>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_37176"/>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_64708"/>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_18310 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_18310">
+        <rdfs:label rdf:datatype="&xsd;string">alkane</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_24632"/>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_33653"/>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_23114 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_23114">
+        <rdfs:label rdf:datatype="&xsd;string">chloride salt</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_23117"/>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_33958"/>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_23117 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_23117">
+        <rdfs:label rdf:datatype="&xsd;string">chlorine molecular entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_24471"/>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_23367 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_23367">
+        <rdfs:label rdf:datatype="&xsd;string">molecular entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_24431"/>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24431 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_24431">
+        <rdfs:label rdf:datatype="&xsd;string">chemical entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000040"/>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24471 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_24471">
+        <rdfs:label rdf:datatype="&xsd;string">halogen molecular entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_33675"/>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24632 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_24632">
+        <rdfs:label rdf:datatype="&xsd;string">hydrocarbon</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_33245"/>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24835 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_24835">
+        <rdfs:label rdf:datatype="&xsd;string">inorganic molecular entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_23367"/>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24839 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_24839">
+        <rdfs:label rdf:datatype="&xsd;string">inorganic salt</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_24835"/>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_24866"/>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24866 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_24866">
+        <rdfs:label rdf:datatype="&xsd;string">salt</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_37577"/>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_27275 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_27275">
+        <rdfs:label rdf:datatype="&xsd;string">vanadium molecular entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_33746"/>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_27364 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_27364">
+        <rdfs:label rdf:datatype="&xsd;string">zinc molecular entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_33673"/>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33245 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_33245">
+        <rdfs:label rdf:datatype="&xsd;string">organic fundamental parent</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_37175"/>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_50860"/>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33292 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_33292">
+        <rdfs:label rdf:datatype="&xsd;string">fuel</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33497 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_33497">
+        <rdfs:label rdf:datatype="&xsd;string">transition element molecular entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_23367"/>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33579 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_33579">
+        <rdfs:label rdf:datatype="&xsd;string">main group molecular entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_23367"/>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33582 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_33582">
+        <rdfs:label rdf:datatype="&xsd;string">carbon group molecular entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_33675"/>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33608 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_33608">
+        <rdfs:label rdf:datatype="&xsd;string">hydrogen molecular entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_33674"/>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33653 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_33653">
+        <rdfs:label rdf:datatype="&xsd;string">aliphatic compound</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_50860"/>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33673 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_33673">
+        <rdfs:label rdf:datatype="&xsd;string">zinc group molecular entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_33676"/>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33674 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_33674">
+        <rdfs:label rdf:datatype="&xsd;string">s-block molecular entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_33579"/>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33675 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_33675">
+        <rdfs:label rdf:datatype="&xsd;string">p-block molecular entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_33579"/>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33676 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_33676">
+        <rdfs:label rdf:datatype="&xsd;string">d-block molecular entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_33497"/>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33692 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_33692">
+        <rdfs:label rdf:datatype="&xsd;string">hydrides</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_33608"/>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_37577"/>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33746 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_33746">
+        <rdfs:label rdf:datatype="&xsd;string">vanadium group molecular entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_33676"/>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33958 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_33958">
+        <rdfs:label rdf:datatype="&xsd;string">halide salt</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_24866"/>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_37578"/>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_35230 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_35230">
+        <rdfs:label rdf:datatype="&xsd;string">fossil fuel</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_33292"/>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_36093 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_36093">
+        <rdfs:label rdf:datatype="&xsd;string">inorganic chloride</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_23114"/>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_24839"/>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_36357 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_36357">
+        <rdfs:label rdf:datatype="&xsd;string">polyatomic entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_23367"/>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_37175 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_37175">
+        <rdfs:label rdf:datatype="&xsd;string">organic hydride</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_33692"/>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_37176 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_37176">
+        <rdfs:label rdf:datatype="&xsd;string">mononuclear parent hydride</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_33692"/>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_37577 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_37577">
+        <rdfs:label rdf:datatype="&xsd;string">heteroatomic molecular entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_36357"/>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_37578 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_37578">
+        <rdfs:label rdf:datatype="&xsd;string">halide</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_24471"/>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_37577"/>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_49976 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_49976">
+        <rdfs:label rdf:datatype="&xsd;string">zinc dichloride</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_27364"/>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_36093"/>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_50860 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_50860">
+        <rdfs:label rdf:datatype="&xsd;string">organic molecular entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_33582"/>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_64708 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_64708">
+        <rdfs:label rdf:datatype="&xsd;string">one-carbon compound</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_50860"/>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000000 -->
+
+    <owl:Class rdf:about="&obo;ENVO_00000000">
+        <rdfs:label rdf:datatype="&xsd;string">geographic feature</rdfs:label>
+        <obo:hasOBONamespace rdf:datatype="&xsd;string">ENVO</obo:hasOBONamespace>
+        <obo:id rdf:datatype="&xsd;string">ENVO:00000000</obo:id>
+        <rdfs:comment rdf:datatype="&xsd;string">May appear on a map.</rdfs:comment>
+        <obo:hasDbXref rdf:datatype="&xsd;string">https://en.wikipedia.org/wiki/Geographic_feature</obo:hasDbXref>
+        <obo:hasExactSynonym rdf:datatype="&xsd;string">macroscopic spatial feature</obo:hasExactSynonym>
+        <obo:inSubset>envoPolar</obo:inSubset>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000002 -->
+
+    <owl:Class rdf:about="&obo;ENVO_00000002">
+        <rdfs:label rdf:datatype="&xsd;string">anthropogenic geographic feature</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_00000000"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">An anthropogenic geographic feature is a geographic feature
+resulting from the influence of human beings on nature.</obo:IAO_0000115>
+        <obo:hasOBONamespace rdf:datatype="&xsd;string">ENVO</obo:hasOBONamespace>
+        <obo:id rdf:datatype="&xsd;string">ENVO:00000002</obo:id>
+        <obo:hasDbXref rdf:datatype="&xsd;string">FTT:78</obo:hasDbXref>
+        <obo:hasDbXref rdf:datatype="&xsd;string">TGN:50001</obo:hasDbXref>
+        <obo:hasRelatedSynonym rdf:datatype="&xsd;string">man-made feature</obo:hasRelatedSynonym>
+        <obo:hasRelatedSynonym rdf:datatype="&xsd;string">manmade feature</obo:hasRelatedSynonym>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000062 -->
+
+    <owl:Class rdf:about="&obo;ENVO_00000062">
+        <rdfs:label rdf:datatype="&xsd;string">populated place</rdfs:label>
+        <obo:hasOBONamespace rdf:datatype="&xsd;string">ENVO</obo:hasOBONamespace>
+        <obo:id rdf:datatype="&xsd;string">ENVO:00000062</obo:id>
+        <obo:hasDbXref rdf:datatype="&xsd;string">FTT:1097</obo:hasDbXref>
+        <obo:hasDbXref rdf:datatype="&xsd;string">FTT:33</obo:hasDbXref>
+        <obo:hasDbXref rdf:datatype="&xsd;string">Geonames:P.PPL</obo:hasDbXref>
+        <obo:hasDbXref rdf:datatype="&xsd;string">Geonames:P.PPLS</obo:hasDbXref>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Place or area with clustered or scattered buildings and a permanent human population.</obo:IAO_0000115>
+        <obo:hasDbXref rdf:datatype="&xsd;string">TGN:22201</obo:hasDbXref>
+        <obo:hasDbXref rdf:datatype="&xsd;string">TGN:83002</obo:hasDbXref>
+        <obo:hasDbXref rdf:datatype="&xsd;string">https://en.wikipedia.org/wiki/Populated_place</obo:hasDbXref>
+        <obo:hasExactSynonym rdf:datatype="&xsd;string">inhabited place</obo:hasExactSynonym>
+        <obo:hasRelatedSynonym rdf:datatype="&xsd;string">inhabited region</obo:hasRelatedSynonym>
+        <obo:hasBroadSynonym rdf:datatype="&xsd;string">place</obo:hasBroadSynonym>
+        <obo:hasRelatedSynonym rdf:datatype="&xsd;string">populated locality</obo:hasRelatedSynonym>
+        <obo:hasExactSynonym rdf:datatype="&xsd;string">populated place</obo:hasExactSynonym>
+        <obo:hasExactSynonym rdf:datatype="&xsd;string">populated places</obo:hasExactSynonym>
+        <obo:hasExactSynonym rdf:datatype="&xsd;string">settlement</obo:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000070 -->
+
+    <owl:Class rdf:about="&obo;ENVO_00000070">
+        <rdfs:label rdf:datatype="&xsd;string">constructed feature</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_00000002"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A feature that has been constructed by deliberate human effort.</obo:IAO_0000115>
+        <obo:hasOBONamespace rdf:datatype="&xsd;string">ENVO</obo:hasOBONamespace>
+        <obo:id rdf:datatype="&xsd;string">ENVO:00000070</obo:id>
+        <obo:IAO_0000116>&quot;constructed&quot; should probably be made something like a quality and this class obsoleted or filled only by inferece</obo:IAO_0000116>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000856 -->
+
+    <owl:Class rdf:about="&obo;ENVO_00000856">
+        <rdfs:label rdf:datatype="&xsd;string">city</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_01000658"/>
+        <obo:hasOBONamespace rdf:datatype="&xsd;string">ENVO</obo:hasOBONamespace>
+        <obo:id rdf:datatype="&xsd;string">ENVO:00000856</obo:id>
+        <obo:hasDbXref rdf:datatype="&xsd;string">EcoLexicon:city</obo:hasDbXref>
+        <obo:hasDbXref rdf:datatype="&xsd;string">FTT:430</obo:hasDbXref>
+        <obo:hasDbXref rdf:datatype="&xsd;string">FTT:483</obo:hasDbXref>
+        <obo:hasDbXref rdf:datatype="&xsd;string">FTT:484</obo:hasDbXref>
+        <obo:hasDbXref rdf:datatype="&xsd;string">FTT:485</obo:hasDbXref>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Incorporated populated place.</obo:IAO_0000115>
+        <obo:hasDbXref rdf:datatype="&xsd;string">SWEETRealm:City</obo:hasDbXref>
+        <obo:hasDbXref rdf:datatype="&xsd;string">TGN:83020</obo:hasDbXref>
+        <obo:hasDbXref rdf:datatype="&xsd;string">TGN:83040</obo:hasDbXref>
+        <obo:hasDbXref rdf:datatype="&xsd;string">TGN:83043</obo:hasDbXref>
+        <obo:hasDbXref rdf:datatype="&xsd;string">https://en.wikipedia.org/wiki/City</obo:hasDbXref>
+        <obo:hasBroadSynonym rdf:datatype="&xsd;string">urban area</obo:hasBroadSynonym>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00001995 -->
+
+    <owl:Class rdf:about="&obo;ENVO_00001995">
+        <rdfs:label rdf:datatype="&xsd;string">rock</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_01000814"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="&obo;PATO_0001546"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="&obo;PATO_0000386"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A rock is a naturally occurring solid aggregate of one or more minerals or mineraloids.</obo:IAO_0000115>
+        <obo:hasOBONamespace rdf:datatype="&xsd;string">ENVO</obo:hasOBONamespace>
+        <obo:id rdf:datatype="&xsd;string">ENVO:00001995</obo:id>
+        <obo:hasDbXref rdf:datatype="&xsd;string">EcoLexicon:rock</obo:hasDbXref>
+        <obo:hasDbXref rdf:datatype="&xsd;string">FTT:1010</obo:hasDbXref>
+        <obo:hasDbXref rdf:datatype="&xsd;string">FTT:145</obo:hasDbXref>
+        <rdfs:comment rdf:datatype="&xsd;string">From https://en.wikipedia.org/wiki/ [A mineral] is different from a rock, which can be an aggregate of minerals or non-minerals and does not have a specific chemical composition. The exact definition of a mineral is under debate, especially with respect to the requirement a valid species be abiogenic, and to a lesser extent with regards to it having an ordered atomic structure.</rdfs:comment>
+        <obo:hasDbXref rdf:datatype="&xsd;string">Geonames:T.RK</obo:hasDbXref>
+        <obo:hasDbXref rdf:datatype="&xsd;string">Geonames:T.RKS</obo:hasDbXref>
+        <obo:hasDbXref rdf:datatype="&xsd;string">SWEETRealm:Rock</obo:hasDbXref>
+        <obo:hasDbXref rdf:datatype="&xsd;string">TGN:21444</obo:hasDbXref>
+        <obo:hasDbXref rdf:datatype="&xsd;string">https://en.wikipedia.org/wiki/Rock</obo:hasDbXref>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00002008 -->
+
+    <owl:Class rdf:about="&obo;ENVO_00002008">
+        <rdfs:label rdf:datatype="&xsd;string">dust</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_01000814"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="&obo;PATO_0001546"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:hasOBONamespace rdf:datatype="&xsd;string">ENVO</obo:hasOBONamespace>
+        <obo:id rdf:datatype="&xsd;string">ENVO:00002008</obo:id>
+        <obo:hasDbXref rdf:datatype="&xsd;string">EcoLexicon:dust</obo:hasDbXref>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Minute solid particles with diameters less than 500 micrometers. Occurs in and may be deposited from, the atmosphere.</obo:IAO_0000115>
+        <obo:hasDbXref rdf:datatype="&xsd;string">SWEETRealm:Dust</obo:hasDbXref>
+        <obo:hasDbXref rdf:datatype="&xsd;string">https://en.wikipedia.org/wiki/Dust</obo:hasDbXref>
+        <obo:inSubset>envoPolar</obo:inSubset>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00002016 -->
+
+    <owl:Class rdf:about="&obo;ENVO_00002016">
+        <rdfs:label rdf:datatype="&xsd;string">sedimentary rock</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_00001995"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A rock formed by deposition of either clastic sediments, organic matter, or chemical precipitates (evaporites), followed by compaction of the particulate matter and cementation during diagenesis.</obo:IAO_0000115>
+        <obo:hasOBONamespace rdf:datatype="&xsd;string">ENVO</obo:hasOBONamespace>
+        <obo:id rdf:datatype="&xsd;string">ENVO:00002016</obo:id>
+        <obo:hasDbXref rdf:datatype="&xsd;string">EcoLexicon:sedimentary_rock</obo:hasDbXref>
+        <obo:hasDbXref rdf:datatype="&xsd;string">SWEETRealm:SedimentaryRock</obo:hasDbXref>
+        <obo:hasDbXref rdf:datatype="&xsd;string">https://en.wikipedia.org/wiki/Sedimentary_rock</obo:hasDbXref>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00002982 -->
+
+    <owl:Class rdf:about="&obo;ENVO_00002982">
+        <rdfs:label rdf:datatype="&xsd;string">clay</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_00010483"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="&obo;PATO_0000984"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A group of hydrous aluminium phyllosilicate (phyllosilicates being a subgroup of silicate minerals) minerals (see clay minerals), that are typically less than 2 micrometres in diameter. Clay consists of a variety of phyllosilicate minerals rich in silicon and aluminium oxides and hydroxides which include variable amounts of structural water.</obo:IAO_0000115>
+        <obo:hasOBONamespace rdf:datatype="&xsd;string">ENVO</obo:hasOBONamespace>
+        <obo:id rdf:datatype="&xsd;string">ENVO:00002982</obo:id>
+        <obo:hasDbXref rdf:datatype="&xsd;string">EcoLexicon:clay</obo:hasDbXref>
+        <obo:hasDbXref rdf:datatype="&xsd;string">SWEETRealm:Clay</obo:hasDbXref>
+        <obo:hasDbXref rdf:datatype="&xsd;string">https://en.wikipedia.org/wiki/Clay</obo:hasDbXref>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00010483 -->
+
+    <owl:Class rdf:about="&obo;ENVO_00010483">
+        <rdfs:label rdf:datatype="&xsd;string">environmental material</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000040"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A portion of environmental material is a fiat object which forms the medium or part of the medium of an environmental system.</obo:IAO_0000115>
+        <obo:hasOBONamespace rdf:datatype="&xsd;string">ENVO</obo:hasOBONamespace>
+        <obo:id rdf:datatype="&xsd;string">ENVO:00010483</obo:id>
+        <rdfs:comment rdf:datatype="&xsd;string">Everything under this parent must be a mass noun. All subclasses are to be understood as being composed primarily of the named entity, rather than restricted to that entity. For example, &quot;ENVO:water&quot; is to be understood as &quot;environmental material composed primarly of some CHEBI:water&quot;. This class is currently being aligned to the Basic Formal Ontology. Following this alignment, its definition and the definitions of its subclasses will be revised.</rdfs:comment>
+        <obo:hasExactSynonym rdf:datatype="&xsd;string">portion of environmental material</obo:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_0010001 -->
+
+    <owl:Class rdf:about="&obo;ENVO_0010001">
+        <rdfs:label rdf:datatype="&xsd;string">anthropogenic environmental material</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_00010483"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Anthropogenic material in or on which organisms may live.</obo:IAO_0000115>
+        <obo:hasOBONamespace rdf:datatype="&xsd;string">ENVO</obo:hasOBONamespace>
+        <obo:id rdf:datatype="&xsd;string">ENVO:0010001</obo:id>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000462 -->
+
+    <owl:Class rdf:about="&obo;ENVO_01000462">
+        <rdfs:label>masonry cement</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_0010001"/>
+        <rdfs:comment rdf:datatype="&xsd;string">&quot;Cement&quot; refers more to a disposition than a specific material.</rdfs:comment>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Masonry cement is a substance used in construction that has the disposition to set and harden and thus may be used to bind materials together.</obo:IAO_0000115>
+        <obo:created_by rdf:datatype="&xsd;string">ORCID:0000-0002-4366-3088</obo:created_by>
+        <obo:hasBroadSynonym rdf:datatype="&xsd;string">cement</obo:hasBroadSynonym>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000552 -->
+
+    <owl:Class rdf:about="&obo;ENVO_01000552">
+        <rdfs:label xml:lang="en">natural gas</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_01000554"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0002473"/>
+                <owl:someValuesFrom rdf:resource="&obo;CHEBI_16183"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Natural gas is a hydrocarbon gas mixture consisting primarily of methane, but commonly includes varying amounts of other higher alkanes and sometimes a usually lesser percentage of carbon dioxide, nitrogen, and/or hydrogen sulfide. Natural gas is a fossil fuel formed when layers of buried plants and gases are exposed to intense heat and pressure over thousands of years.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000554 -->
+
+    <owl:Class rdf:about="&obo;ENVO_01000554">
+        <rdfs:label xml:lang="en">hydrocarbon gas</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_01000797"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="&obo;PATO_0001547"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0002473"/>
+                <owl:someValuesFrom rdf:resource="&obo;CHEBI_24632"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A gas that is primarily composed of hydrocarbon molecules.</obo:IAO_0000115>
+        <obo:inSubset>envoPolar</obo:inSubset>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000575 -->
+
+    <owl:Class rdf:about="&obo;ENVO_01000575">
+        <rdfs:label xml:lang="en">wax</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_00010483"/>
+        <obo:IAO_0000115>A wax is an environmental material which is primarily composed of lipids or other organic compounds that consist of long alkyl chains. Waxes are are malleable near ambient temperatures and melt at approximately 45 degrees Celsius.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000658 -->
+
+    <owl:Class rdf:about="&obo;ENVO_01000658">
+        <rdfs:label xml:lang="en">dense settlement</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_00000062"/>
+        <obo:IAO_0000115>A settlement with a high density of buildings and inhabitants.</obo:IAO_0000115>
+        <rdfs:comment>The thresholds for what makes a settlment &quot;dense&quot; can be determined as needed. If there is a specific threshold that should be added to ENVO, please make a new class request.</rdfs:comment>
+        <obo:IAO_0000116>See also: http://www.ecotope.org/anthromes/v1/guide/urban/12_dense_settlements/default.aspx</obo:IAO_0000116>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000744 -->
+
+    <owl:Class rdf:about="&obo;ENVO_01000744">
+        <rdfs:label xml:lang="en">human dwelling</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_00000070"/>
+        <obo:IAO_0000115>A self-contained constructed feature used by one or more households as a home, such as a house, apartment, mobile home, houseboat or other &apos;substantial&apos; structure. A dwelling typically includes nearby outbuildings, sheds etc. within the curtilage of the property, excluding any &apos;open fields beyond&apos;. It has significance in relation to search and seizure, conveyancing of real property, burglary, trespass, and land use planning.</obo:IAO_0000115>
+        <obo:IAO_0000116>See https://github.com/EnvironmentOntology/envo/issues/264 for discussion. This definition needs a lot of clean up and links to household and related classes must be made to form logical definitions for inference to work.</obo:IAO_0000116>
+        <obo:IAO_0000116>Subclasses will be added by inference.</obo:IAO_0000116>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000773 -->
+
+    <owl:Class rdf:about="&obo;ENVO_01000773">
+        <rdfs:label xml:lang="en">village</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_00000062"/>
+        <obo:IAO_0000115>A village is a clustered human settlement or community, larger than a hamlet but smaller than a town, with a population ranging from a few hundred to a few thousand. Though often located in rural areas, the term urban village is also applied to certain urban neighbourhoods. Villages are normally permanent, with fixed dwellings; however, transient villages can occur. Further, the dwellings of a village are fairly close to one another, not scattered broadly over the landscape, as a dispersed settlement.</obo:IAO_0000115>
+        <obo:IAO_0000116>This class may be split. &quot;urban village&quot; doesn&apos;t sit well and prevents relations to village biomes.</obo:IAO_0000116>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000797 -->
+
+    <owl:Class rdf:about="&obo;ENVO_01000797">
+        <rdfs:label xml:lang="en">gaseous environmental material</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;ENVO_00010483"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;RO_0000086"/>
+                        <owl:someValuesFrom rdf:resource="&obo;PATO_0001547"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_00010483"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="&obo;PATO_0001547"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:hasNarrowSynonym>gas</obo:hasNarrowSynonym>
+        <obo:IAO_0000116>This class is to be populated by inference.</obo:IAO_0000116>
+        <obo:IAO_0000115>A material entity which is composed of one or more chemical entities and has neither independent shape nor volume but tends to expand indefinitely.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000814 -->
+
+    <owl:Class rdf:about="&obo;ENVO_01000814">
+        <rdfs:label xml:lang="en">solid environmental material</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;ENVO_00010483"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;RO_0000086"/>
+                        <owl:someValuesFrom rdf:resource="&obo;PATO_0001546"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_00010483"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="&obo;PATO_0001546"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An environmental material which is in a solid state.</obo:IAO_0000115>
+        <rdfs:comment>This is a defined class: its subclasses will not be asserted, but filled by inference.</rdfs:comment>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_02000091 -->
+
+    <owl:Class rdf:about="&obo;ENVO_02000091">
+        <rdfs:label>coal</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_00002016"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="&obo;PATO_0015022"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:creator rdf:datatype="&xsd;string">cjm</dc:creator>
+        <obo:IAO_0000115>A combustible black or brownish-black sedimentary rock usually occurring in rock strata in layers or veins called coal beds or coal seams.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_02000099 -->
+
+    <owl:Class rdf:about="&obo;ENVO_02000099">
+        <rdfs:label>coal dust</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;ENVO_00002008"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="&obo;ENVO_02000091"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_00002008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0001000"/>
+                <owl:someValuesFrom rdf:resource="&obo;ENVO_02000091"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:creator rdf:datatype="&xsd;string">cjm</dc:creator>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_02000100 -->
+
+    <owl:Class rdf:about="&obo;ENVO_02000100">
+        <rdfs:label>mineral dust</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_00002008"/>
+        <dc:creator rdf:datatype="&xsd;string">cjm</dc:creator>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_02000101 -->
+
+    <owl:Class rdf:about="&obo;ENVO_02000101">
+        <rdfs:label>fibrous dust</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_00002008"/>
+        <dc:creator rdf:datatype="&xsd;string">cjm</dc:creator>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_02000102 -->
+
+    <owl:Class rdf:about="&obo;ENVO_02000102">
+        <rdfs:label>fibrous glass dust</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_02000101"/>
+        <dc:creator rdf:datatype="&xsd;string">cjm</dc:creator>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_02000103 -->
+
+    <owl:Class rdf:about="&obo;ENVO_02000103">
+        <rdfs:label>metallic dust</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_00002008"/>
+        <dc:creator rdf:datatype="&xsd;string">cjm</dc:creator>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_02000104 -->
+
+    <owl:Class rdf:about="&obo;ENVO_02000104">
+        <rdfs:label>cement dust</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;ENVO_00002008"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="&obo;ENVO_01000462"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_00002008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0001000"/>
+                <owl:someValuesFrom rdf:resource="&obo;ENVO_01000462"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:creator rdf:datatype="&xsd;string">cjm</dc:creator>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_02000105 -->
+
+    <owl:Class rdf:about="&obo;ENVO_02000105">
+        <rdfs:label>clay dust</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;ENVO_00002008"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="&obo;ENVO_00002982"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_00002008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0001000"/>
+                <owl:someValuesFrom rdf:resource="&obo;ENVO_00002982"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:creator rdf:datatype="&xsd;string">cjm</dc:creator>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_02000106 -->
+
+    <owl:Class rdf:about="&obo;ENVO_02000106">
+        <rdfs:label>asbestos dust</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_02000101"/>
+        <dc:creator rdf:datatype="&xsd;string">cjm</dc:creator>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_02000107 -->
+
+    <owl:Class rdf:about="&obo;ENVO_02000107">
+        <rdfs:label>grain dust</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_02000109"/>
+        <dc:creator rdf:datatype="&xsd;string">cjm</dc:creator>
+        <obo:IAO_0000115>Dust that comes from grain and all the other substances associated with its cultivation &amp; harvesting.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_02000108 -->
+
+    <owl:Class rdf:about="&obo;ENVO_02000108">
+        <rdfs:label>cotton dust</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_02000109"/>
+        <dc:creator rdf:datatype="&xsd;string">cjm</dc:creator>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_02000109 -->
+
+    <owl:Class rdf:about="&obo;ENVO_02000109">
+        <rdfs:label>dust from plant parts</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_00002008"/>
+        <dc:creator rdf:datatype="&xsd;string">cjm</dc:creator>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_02000112 -->
+
+    <owl:Class rdf:about="&obo;ENVO_02000112">
+        <rdfs:label>fume</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_00010483"/>
+        <dc:creator rdf:datatype="&xsd;string">cjm</dc:creator>
+        <obo:IAO_0000115>A gas, smoke, or vapor that smells strongly or is dangerous to inhale.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_02000113 -->
+
+    <owl:Class rdf:about="&obo;ENVO_02000113">
+        <rdfs:label>welding fume</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_02000112"/>
+        <dc:creator rdf:datatype="&xsd;string">cjm</dc:creator>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_02000114 -->
+
+    <owl:Class rdf:about="&obo;ENVO_02000114">
+        <rdfs:label>paraffin wax fume</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;ENVO_02000112"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="&obo;ENVO_02000118"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_02000112"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0001000"/>
+                <owl:someValuesFrom rdf:resource="&obo;ENVO_02000118"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:creator rdf:datatype="&xsd;string">cjm</dc:creator>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_02000115 -->
+
+    <owl:Class rdf:about="&obo;ENVO_02000115">
+        <rdfs:label>vanadium fume</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;ENVO_02000112"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="&obo;CHEBI_27275"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_02000112"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;CHEBI_27275"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:creator rdf:datatype="&xsd;string">cjm</dc:creator>
+        <obo:IAO_0000115>Respirable vapor of vanadium.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_02000118 -->
+
+    <owl:Class rdf:about="&obo;ENVO_02000118">
+        <rdfs:label>paraffin wax</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_01000575"/>
+        <dc:creator rdf:datatype="&xsd;string">cjm</dc:creator>
+        <obo:IAO_0000115>A white or colourless soft solid derivable from petroleum, coal or oil shale, that consists of a mixture of hydrocarbon molecules containing between twenty and forty carbon atoms.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_02000120 -->
+
+    <owl:Class rdf:about="&obo;ENVO_02000120">
+        <rdfs:label>zinc chloride fume</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;ENVO_02000112"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="&obo;CHEBI_49976"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_02000112"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;CHEBI_49976"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:creator rdf:datatype="&xsd;string">cjm</dc:creator>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000048 -->
+
+    <owl:Class rdf:about="&obo;PATO_0000048">
+        <rdfs:label rdf:datatype="&xsd;string">hardness</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0001546"/>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000051 -->
+
+    <owl:Class rdf:about="&obo;PATO_0000051">
+        <rdfs:label rdf:datatype="&xsd;string">morphology</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000019"/>
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0001241"/>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000068 -->
+
+    <owl:Class rdf:about="&obo;PATO_0000068">
+        <rdfs:label rdf:datatype="&xsd;string">qualitative</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000069 -->
+
+    <owl:Class rdf:about="&obo;PATO_0000069">
+        <rdfs:label rdf:datatype="&xsd;string">deviation(from_normal)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0000068"/>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000141 -->
+
+    <owl:Class rdf:about="&obo;PATO_0000141">
+        <rdfs:label rdf:datatype="&xsd;string">structure</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0000051"/>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000386 -->
+
+    <owl:Class rdf:about="&obo;PATO_0000386">
+        <rdfs:label rdf:datatype="&xsd;string">hard</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0000048"/>
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0002305"/>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000970 -->
+
+    <owl:Class rdf:about="&obo;PATO_0000970">
+        <rdfs:label rdf:datatype="&xsd;string">permeability</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0000141"/>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000973 -->
+
+    <owl:Class rdf:about="&obo;PATO_0000973">
+        <rdfs:label rdf:datatype="&xsd;string">porosity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0000970"/>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000984 -->
+
+    <owl:Class rdf:about="&obo;PATO_0000984">
+        <rdfs:label rdf:datatype="&xsd;string">porous</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0000973"/>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001018 -->
+
+    <owl:Class rdf:about="&obo;PATO_0001018">
+        <rdfs:label rdf:datatype="&xsd;string">physical quality</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0001241"/>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001241 -->
+
+    <owl:Class rdf:about="&obo;PATO_0001241">
+        <rdfs:label rdf:datatype="&xsd;string">physical object quality</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001546 -->
+
+    <owl:Class rdf:about="&obo;PATO_0001546">
+        <rdfs:label rdf:datatype="&xsd;string">quality of a solid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0002198"/>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001547 -->
+
+    <owl:Class rdf:about="&obo;PATO_0001547">
+        <rdfs:label rdf:datatype="&xsd;string">quality of a gas</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0002198"/>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0002198 -->
+
+    <owl:Class rdf:about="&obo;PATO_0002198">
+        <rdfs:label rdf:datatype="&xsd;string">quality of a substance</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0001018"/>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0002300 -->
+
+    <owl:Class rdf:about="&obo;PATO_0002300">
+        <rdfs:label rdf:datatype="&xsd;string">increased quality</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0000069"/>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0002305 -->
+
+    <owl:Class rdf:about="&obo;PATO_0002305">
+        <rdfs:label rdf:datatype="&xsd;string">increased object quality</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0001241"/>
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0002300"/>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0015021 -->
+
+    <owl:Class rdf:about="&obo;PATO_0015021">
+        <rdfs:label rdf:datatype="&xsd;string">combustibility</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0001018"/>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0015022 -->
+
+    <owl:Class rdf:about="&obo;PATO_0015022">
+        <rdfs:label rdf:datatype="&xsd;string">increased combustibility</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0002305"/>
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0015021"/>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+

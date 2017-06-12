@@ -1,0 +1,1619 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY obo "http://purl.obolibrary.org/obo/" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="&obo;ordi/HP_import.owl#"
+     xml:base="&obo;ordi/HP_import.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/">
+    <owl:Ontology rdf:about="&obo;ordi/HP_import.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000115">
+        <rdfs:label rdf:datatype="&xsd;string">definition</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <owl:AnnotationProperty rdf:about="&rdfs;label"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000019 -->
+
+    <owl:Class rdf:about="&obo;BFO_0000019"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000118 -->
+
+    <owl:Class rdf:about="&obo;HP_0000118">
+        <rdfs:label rdf:datatype="&xsd;string">Phenotypic abnormality</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000019"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A phenotypic abnormality.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000271 -->
+
+    <owl:Class rdf:about="&obo;HP_0000271">
+        <rdfs:label rdf:datatype="&xsd;string">Abnormality of the face</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0000118"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">An abnormality of the face.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000939 -->
+
+    <owl:Class rdf:about="&obo;HP_0000939">
+        <rdfs:label rdf:datatype="&xsd;string">Osteoporosis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0000118"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Osteoporosis is a systemic skeletal disease characterized by low bone density and microarchitectural deterioration of bone tissue with a consequent increase in bone fragility. According to the WHO, osteoporosis is characterized by a value of BMD 2.5 standard deviations or more below the young adult mean.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000961 -->
+
+    <owl:Class rdf:about="&obo;HP_0000961">
+        <rdfs:label rdf:datatype="&xsd;string">Cyanosis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ORDI_0000242"/>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000964 -->
+
+    <owl:Class rdf:about="&obo;HP_0000964">
+        <rdfs:label rdf:datatype="&xsd;string">Eczema</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0011123"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Eczema is a form of dermatitis. The term eczema is broadly applied to a range of persistent skin conditions and can be related to a number of underlying conditions. Manifestations of eczema can include dryness and recurring skin rashes with redness, skin edema, itching and dryness, crusting, flaking, blistering, cracking, oozing, or bleeding.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001626 -->
+
+    <owl:Class rdf:about="&obo;HP_0001626">
+        <rdfs:label rdf:datatype="&xsd;string">Abnormality of the cardiovascular system</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0000118"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Any abnormality of the cardiovascular system.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001627 -->
+
+    <owl:Class rdf:about="&obo;HP_0001627">
+        <rdfs:label rdf:datatype="&xsd;string">Abnormal heart morphology</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0001626"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Any structural anomaly of the heart.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001645 -->
+
+    <owl:Class rdf:about="&obo;HP_0001645">
+        <rdfs:label rdf:datatype="&xsd;string">Sudden cardiac death</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0001695"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The heart suddenly and unexpectedly stops beating resulting in death within a short time period (generally within 1 h of symptom onset).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001649 -->
+
+    <owl:Class rdf:about="&obo;HP_0001649">
+        <rdfs:label rdf:datatype="&xsd;string">Tachycardia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0011675"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A rapid heartrate that exceeds the range of the normal resting heartrate for age.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001657 -->
+
+    <owl:Class rdf:about="&obo;HP_0001657">
+        <rdfs:label rdf:datatype="&xsd;string">Prolonged QT interval</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0003115"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Increased time between the start of the Q wave and the end of the T wave as measured by the electrocardiogram (EKG).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001662 -->
+
+    <owl:Class rdf:about="&obo;HP_0001662">
+        <rdfs:label rdf:datatype="&xsd;string">Bradycardia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0011675"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A slower than normal heart rate (in adults, slower than 60 beats per minute).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001663 -->
+
+    <owl:Class rdf:about="&obo;HP_0001663">
+        <rdfs:label rdf:datatype="&xsd;string">Ventricular fibrillation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0004308"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Uncontrolled contractions of muscles fibers in the left ventricle not producing contraction of the left ventricle. Ventricular fibrillation usually begins with a ventricular premature contraction and a short run of rapid ventricular tachycardia degenerating into uncoordinating ventricular fibrillations.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001664 -->
+
+    <owl:Class rdf:about="&obo;HP_0001664">
+        <rdfs:label rdf:datatype="&xsd;string">Torsade de pointes</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0004308"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A type of ventricular tachycardia characterized by polymorphioc QRS complexes that change in amplitue and cycle length, and thus have the appearance of oscillating around the baseline in the EKG.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001667 -->
+
+    <owl:Class rdf:about="&obo;HP_0001667">
+        <rdfs:label rdf:datatype="&xsd;string">Right ventricular hypertrophy</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0001713"/>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0001714"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">In this case the right ventricle is more muscular than normal, causing a characteristic boot-shaped (coeur-en-sabot) appearance as seen on anterior- posterior chest x-rays. Right ventricular hypertrophy is commonly associated with any form of right ventricular outflow obstruction or pulmonary hypertension, which may in turn owe its origin to left-sided disease. The echocardiographic signs are thickening of the anterior right ventricular wall and the septum. Cavity size is usually normal, or slightly enlarged. In many cases there is associated volume overload present due to tricuspid regurgitation, in the absence of this, septal motion is normal.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001678 -->
+
+    <owl:Class rdf:about="&obo;HP_0001678">
+        <rdfs:label rdf:datatype="&xsd;string">Atrioventricular block</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0005150"/>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0012722"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Delayed or lack of conduction of atrial depolarizations through the atrioventricular node to the ventricles.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001688 -->
+
+    <owl:Class rdf:about="&obo;HP_0001688">
+        <rdfs:label rdf:datatype="&xsd;string">Sinus bradycardia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0001662"/>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0011702"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Bradycardia related to a mean resting sinus rate of less than 50 beats per minute.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001692 -->
+
+    <owl:Class rdf:about="&obo;HP_0001692">
+        <rdfs:label rdf:datatype="&xsd;string">Primary atrial arrhythmia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0004755"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A type of supraventricular tachycardia in which the atria are the principal site of electrophysiologic disturbance.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001695 -->
+
+    <owl:Class rdf:about="&obo;HP_0001695">
+        <rdfs:label rdf:datatype="&xsd;string">Cardiac arrest</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0011675"/>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001709 -->
+
+    <owl:Class rdf:about="&obo;HP_0001709">
+        <rdfs:label rdf:datatype="&xsd;string">Third degree atrioventricular block</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0001678"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Third-degree atrioventricular (AV) block (also referred to as complete heart block) is the complete dissociation of the atria and the ventricles. Third-degree AV block exists when more P waves than QRS complexes exist and no relationship (no conduction) exists between them.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001712 -->
+
+    <owl:Class rdf:about="&obo;HP_0001712">
+        <rdfs:label rdf:datatype="&xsd;string">Left ventricular hypertrophy</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0001713"/>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0001714"/>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001713 -->
+
+    <owl:Class rdf:about="&obo;HP_0001713">
+        <rdfs:label rdf:datatype="&xsd;string">Abnormality of cardiac ventricle</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0001627"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">An abnormality of a cardiac ventricle.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001714 -->
+
+    <owl:Class rdf:about="&obo;HP_0001714">
+        <rdfs:label rdf:datatype="&xsd;string">Ventricular hypertrophy</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0001713"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Enlargement of the cardiac ventricular muscle tissue with increase in the width of the wall of the ventricle and loss of elasticity. Ventricular hypertrophy is clinically differentiated into left and right ventricular hypertrophy.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001716 -->
+
+    <owl:Class rdf:about="&obo;HP_0001716">
+        <rdfs:label rdf:datatype="&xsd;string">Wolff-Parkinson-White syndrome</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0004309"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A disorder of the cardiac conduction system of the heart characterized by ventricular preexcitation due to the presence of an abnormal accessory atrioventricular electrical conduction pathway.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001939 -->
+
+    <owl:Class rdf:about="&obo;HP_0001939">
+        <rdfs:label rdf:datatype="&xsd;string">Abnormality of metabolism/homeostasis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0000118"/>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001945 -->
+
+    <owl:Class rdf:about="&obo;HP_0001945">
+        <rdfs:label rdf:datatype="&xsd;string">Fever</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0001939"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Elevated body temperature due to failed thermoregulation.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001962 -->
+
+    <owl:Class rdf:about="&obo;HP_0001962">
+        <rdfs:label rdf:datatype="&xsd;string">Palpitations</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0011675"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A sensation that the heart is pounding or racing, which is a non-specific sign but may be a manifestation of arrhythmia.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0002020 -->
+
+    <owl:Class rdf:about="&obo;HP_0002020">
+        <rdfs:label rdf:datatype="&xsd;string">Gastroesophageal reflux</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0012718"/>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0012719"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A condition in which the stomach contents leak backwards from the stomach into the esophagus through the lower esophageal sphincter.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0002039 -->
+
+    <owl:Class rdf:about="&obo;HP_0002039">
+        <rdfs:label rdf:datatype="&xsd;string">Anorexia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0025032"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A lack or loss of appetite for food (as a medical condition).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0002086 -->
+
+    <owl:Class rdf:about="&obo;HP_0002086">
+        <rdfs:label rdf:datatype="&xsd;string">Abnormality of the respiratory system</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0000118"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">An abnormality of the respiratory system, which include the airways, lungs, and the respiratory muscles.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0002094 -->
+
+    <owl:Class rdf:about="&obo;HP_0002094">
+        <rdfs:label rdf:datatype="&xsd;string">Dyspnea</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ORDI_0000242"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Difficult or labored breathing.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0002315 -->
+
+    <owl:Class rdf:about="&obo;HP_0002315">
+        <rdfs:label rdf:datatype="&xsd;string">Headache</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0012638"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Cephalgia, or pain sensed in various parts of the head, not confined to the area of distribution of any nerve.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0002329 -->
+
+    <owl:Class rdf:about="&obo;HP_0002329">
+        <rdfs:label rdf:datatype="&xsd;string">Drowsiness</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0012638"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Excessive daytime sleepiness.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0002795 -->
+
+    <owl:Class rdf:about="&obo;HP_0002795">
+        <rdfs:label rdf:datatype="&xsd;string">Functional respiratory abnormality</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0002086"/>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0003115 -->
+
+    <owl:Class rdf:about="&obo;HP_0003115">
+        <rdfs:label rdf:datatype="&xsd;string">Abnormal EKG</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0030956"/>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0003140 -->
+
+    <owl:Class rdf:about="&obo;HP_0003140">
+        <rdfs:label rdf:datatype="&xsd;string">T-wave inversion in the right precordial leads</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0010872"/>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0003193 -->
+
+    <owl:Class rdf:about="&obo;HP_0003193">
+        <rdfs:label rdf:datatype="&xsd;string">Allergic rhinitis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0000271"/>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0010978"/>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0004308 -->
+
+    <owl:Class rdf:about="&obo;HP_0004308">
+        <rdfs:label rdf:datatype="&xsd;string">Ventricular arrhythmia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0011675"/>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0004309 -->
+
+    <owl:Class rdf:about="&obo;HP_0004309">
+        <rdfs:label rdf:datatype="&xsd;string">Ventricular preexcitation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0004308"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">An abnormality in which the cardiac ventricles depolarize too early as a result of an abnormality of cardiac conduction pathways such as an accessory pathway.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0004749 -->
+
+    <owl:Class rdf:about="&obo;HP_0004749">
+        <rdfs:label rdf:datatype="&xsd;string">Atrial flutter</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0001692"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A type of atrial arrhythmia characterized by atrial rates of between 240 and 400 beats per minute and some degree of atrioventricular node conduction block. Typically, the ventricular rate is half the atrial rate. In the EKG; atrial flutter waves are observed as sawtooth-like atrial activity. Pathophysiologically, atrial flutter is a form of atrial reentry in which there is a premature electrical impulse creates a self-propagating circuit.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0004751 -->
+
+    <owl:Class rdf:about="&obo;HP_0004751">
+        <rdfs:label rdf:datatype="&xsd;string">Paroxysmal ventricular tachycardia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0004756"/>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0004752 -->
+
+    <owl:Class rdf:about="&obo;HP_0004752">
+        <rdfs:label rdf:datatype="&xsd;string">Congenital atrioventricular dissociation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0011709"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A form of atrioventricular (AV) dissociation (i.e., the atria and the ventricles are under the control of two separate pacemakers) with congenital onset.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0004754 -->
+
+    <owl:Class rdf:about="&obo;HP_0004754">
+        <rdfs:label rdf:datatype="&xsd;string">Permanent atrial fibrillation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0005110"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">AF that cannot be successfully terminated by cardioversion, and longstanding (more than 1 year) AF, where cardioversion is not indicated or has not been attempted, is termed permanent.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0004755 -->
+
+    <owl:Class rdf:about="&obo;HP_0004755">
+        <rdfs:label rdf:datatype="&xsd;string">Supraventricular tachycardia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0001649"/>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0005115"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Supraventricular tachycardia (SVT) is an abnormally increased heart rate (over 100 beats per minute at rest) with origin above the level of the ventricles.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0004756 -->
+
+    <owl:Class rdf:about="&obo;HP_0004756">
+        <rdfs:label rdf:datatype="&xsd;string">Ventricular tachycardia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0001649"/>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0004757 -->
+
+    <owl:Class rdf:about="&obo;HP_0004757">
+        <rdfs:label rdf:datatype="&xsd;string">Paroxysmal atrial fibrillation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0005110"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Episodes of atrial fibrillation that typically last for several hours up to one day and terminate spontaneously.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0004758 -->
+
+    <owl:Class rdf:about="&obo;HP_0004758">
+        <rdfs:label rdf:datatype="&xsd;string">Effort-induced polymorphic ventricular tachycardias</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0004756"/>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0004763 -->
+
+    <owl:Class rdf:about="&obo;HP_0004763">
+        <rdfs:label rdf:datatype="&xsd;string">Paroxysmal supraventricular tachycardia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0004755"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">An episodic form of supraventricular tachycardia with abrupt onset and termination.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0005110 -->
+
+    <owl:Class rdf:about="&obo;HP_0005110">
+        <rdfs:label rdf:datatype="&xsd;string">Atrial fibrillation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0001692"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">An atrial arrhythmia characterized by disorganized atrial activity without discrete P waves on the surface EKG, but instead by an undulating baseline or more sharply circumscribed atrial deflections of varying amplitude an frequency ranging from 350 to 600 per minute.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0005115 -->
+
+    <owl:Class rdf:about="&obo;HP_0005115">
+        <rdfs:label rdf:datatype="&xsd;string">Supraventricular arrhythmia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0011675"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A type of arrhythmia that originates above the ventricles, whereby the electrical impulse propagates down the normal His Purkinje system similar to normal sinus rhythm.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0005135 -->
+
+    <owl:Class rdf:about="&obo;HP_0005135">
+        <rdfs:label rdf:datatype="&xsd;string">Abnormal T-wave</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0003115"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">An abnormality of the T wave on the electrocardiogram, which mainly represents the repolarization of the ventricles.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0005141 -->
+
+    <owl:Class rdf:about="&obo;HP_0005141">
+        <rdfs:label rdf:datatype="&xsd;string">Episodes of ventricular tachycardia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0004756"/>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0005147 -->
+
+    <owl:Class rdf:about="&obo;HP_0005147">
+        <rdfs:label rdf:datatype="&xsd;string">Bidirectional ventricular ectopy</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0004308"/>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0005150 -->
+
+    <owl:Class rdf:about="&obo;HP_0005150">
+        <rdfs:label rdf:datatype="&xsd;string">Abnormal atrioventricular conduction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0011675"/>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0005155 -->
+
+    <owl:Class rdf:about="&obo;HP_0005155">
+        <rdfs:label rdf:datatype="&xsd;string">Ventricular escape rhythms</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0004308"/>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0005165 -->
+
+    <owl:Class rdf:about="&obo;HP_0005165">
+        <rdfs:label rdf:datatype="&xsd;string">Shortened PR interval</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0003115"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Reduced time for the PR interval (beginning of the P wave to the beginning of the QRS complex). In adults, normal values are 120 to 200 ms long.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0005170 -->
+
+    <owl:Class rdf:about="&obo;HP_0005170">
+        <rdfs:label rdf:datatype="&xsd;string">Complete heart block with broad QRS complexes</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0001709"/>
+        <obo:IAO_0000115>A type of third degree heart block in which the escape rhythm arises at a relatively low part of the conduction system (below the atrioventricular node), which produces a wide QRS complex.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0005172 -->
+
+    <owl:Class rdf:about="&obo;HP_0005172">
+        <rdfs:label rdf:datatype="&xsd;string">Left posterior fascicular block</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0011713"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Conduction block in the posterior division of the left bundle branch of the bundle of His.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0005178 -->
+
+    <owl:Class rdf:about="&obo;HP_0005178">
+        <rdfs:label rdf:datatype="&xsd;string">Complete heart block with narrow QRS complexes</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0001709"/>
+        <obo:IAO_0000115>A type of third degree heart block in which the escape rhythm arises at the atrioventricular node, which produces a narrow QRS complex.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0005184 -->
+
+    <owl:Class rdf:about="&obo;HP_0005184">
+        <rdfs:label rdf:datatype="&xsd;string">Prolonged QTc interval</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0001657"/>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0006671 -->
+
+    <owl:Class rdf:about="&obo;HP_0006671">
+        <rdfs:label rdf:datatype="&xsd;string">Paroxysmal atrial tachycardia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0004763"/>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0006677 -->
+
+    <owl:Class rdf:about="&obo;HP_0006677">
+        <rdfs:label rdf:datatype="&xsd;string">Prolonged QRS complex</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0025074"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Increased time for the complex comprised of the Q wave, R wave, and S wave as measured by the electrocardiogram (EKG).. In adults, normal values are 0.06 - 0.10 sec.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0006681 -->
+
+    <owl:Class rdf:about="&obo;HP_0006681">
+        <rdfs:label rdf:datatype="&xsd;string">Absent atrioventricular node</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0001678"/>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0006682 -->
+
+    <owl:Class rdf:about="&obo;HP_0006682">
+        <rdfs:label rdf:datatype="&xsd;string">Ventricular extrasystoles</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0004308"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Premature ventricular contractions (PVC) or ventricular extrasystoles are premature contractions of the heart that arise in response to an impulse in the ventricles rather than the normal impulse from the sinoatrial (SA) node.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0006684 -->
+
+    <owl:Class rdf:about="&obo;HP_0006684">
+        <rdfs:label rdf:datatype="&xsd;string">Ventricular preexcitation with multiple accessory pathways</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0004309"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A form of ventricular preexcitation due to the presence of multiple accessory pathways for cardiac conduction.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0006688 -->
+
+    <owl:Class rdf:about="&obo;HP_0006688">
+        <rdfs:label rdf:datatype="&xsd;string">Paroxysmal tachycardia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0001649"/>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0006696 -->
+
+    <owl:Class rdf:about="&obo;HP_0006696">
+        <rdfs:label rdf:datatype="&xsd;string">Polymorphic and polytopic ventricular extrasystoles</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0006682"/>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0006699 -->
+
+    <owl:Class rdf:about="&obo;HP_0006699">
+        <rdfs:label rdf:datatype="&xsd;string">Premature atrial contractions</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0005115"/>
+        <obo:IAO_0000115>A type of cardiac arrhythmia with premature atrial contractions or beats caused by signals originating from ectopic atrial sites.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0010307 -->
+
+    <owl:Class rdf:about="&obo;HP_0010307">
+        <rdfs:label rdf:datatype="&xsd;string">Stridor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0030829"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Stridor is a high pitched sound resulting from turbulent air flow in the upper airway.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0010741 -->
+
+    <owl:Class rdf:about="&obo;HP_0010741">
+        <rdfs:label rdf:datatype="&xsd;string">Edema of the lower limbs</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0000118"/>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0001939"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">An abnormal accumulation of fluid beneath the skin of the legs.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0010872 -->
+
+    <owl:Class rdf:about="&obo;HP_0010872">
+        <rdfs:label rdf:datatype="&xsd;string">T-wave inversion</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0005135"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">An inversion of the T-wave (which is normally positive).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0010978 -->
+
+    <owl:Class rdf:about="&obo;HP_0010978">
+        <rdfs:label rdf:datatype="&xsd;string">Abnormality of immune system physiology</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0000118"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A functional abnormality of the immune system.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011024 -->
+
+    <owl:Class rdf:about="&obo;HP_0011024">
+        <rdfs:label rdf:datatype="&xsd;string">Abnormality of the gastrointestinal tract</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0025031"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">An abnormality of the gastrointestinal tract.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011025 -->
+
+    <owl:Class rdf:about="&obo;HP_0011025">
+        <rdfs:label rdf:datatype="&xsd;string">Abnormality of cardiovascular system physiology</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0001626"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Abnormal functionality of the cardiovascular system.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011123 -->
+
+    <owl:Class rdf:about="&obo;HP_0011123">
+        <rdfs:label rdf:datatype="&xsd;string">Inflammatory abnormality of the skin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0000118"/>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0010978"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The presence of inflammation of the skin. That is, an abnormality of the skin resulting from the local accumulation of fluid, plasma proteins, and leukocytes.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011675 -->
+
+    <owl:Class rdf:about="&obo;HP_0011675">
+        <rdfs:label rdf:datatype="&xsd;string">Arrhythmia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0030956"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Any cardiac rhythm other than the normal sinus rhythm. Such a rhythm may be either of sinus or ectopic origin and either regular or irregular. An arrhythmia may be due to a disturbance in impulse formation or conduction or both.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011687 -->
+
+    <owl:Class rdf:about="&obo;HP_0011687">
+        <rdfs:label rdf:datatype="&xsd;string">AV nodal tachycardia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0004755"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A type of supraventricular tachycardia that originates in the atrioventricular node.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011688 -->
+
+    <owl:Class rdf:about="&obo;HP_0011688">
+        <rdfs:label rdf:datatype="&xsd;string">Supraventricular tachycardia with an accessory connection mediated pathway</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0004755"/>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011689 -->
+
+    <owl:Class rdf:about="&obo;HP_0011689">
+        <rdfs:label rdf:datatype="&xsd;string">Supraventricular tachycardia with a concealed accessory connection</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0011688"/>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011690 -->
+
+    <owl:Class rdf:about="&obo;HP_0011690">
+        <rdfs:label rdf:datatype="&xsd;string">Permanent junctional reciprocating tachycardia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0011689"/>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011691 -->
+
+    <owl:Class rdf:about="&obo;HP_0011691">
+        <rdfs:label rdf:datatype="&xsd;string">Supraventricular tachycardia with a concealed accessory pathway on the left free wall</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0011689"/>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011692 -->
+
+    <owl:Class rdf:about="&obo;HP_0011692">
+        <rdfs:label rdf:datatype="&xsd;string">Supraventricular tachycardia with a concealed accessory pathway on the right free wall</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0011689"/>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011693 -->
+
+    <owl:Class rdf:about="&obo;HP_0011693">
+        <rdfs:label rdf:datatype="&xsd;string">Supraventricular tachycardia with a concealed accessory pathway on the septum</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0011689"/>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011694 -->
+
+    <owl:Class rdf:about="&obo;HP_0011694">
+        <rdfs:label rdf:datatype="&xsd;string">Supraventricular tachycardia with a manifest accessory pathway</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0011688"/>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011696 -->
+
+    <owl:Class rdf:about="&obo;HP_0011696">
+        <rdfs:label rdf:datatype="&xsd;string">Supraventricular tachycardia with a manifest accessory pathway on the left free wall</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0011694"/>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011697 -->
+
+    <owl:Class rdf:about="&obo;HP_0011697">
+        <rdfs:label rdf:datatype="&xsd;string">Supraventricular tachycardia with a manifest accessory pathway on the right free wall</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0011694"/>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011698 -->
+
+    <owl:Class rdf:about="&obo;HP_0011698">
+        <rdfs:label rdf:datatype="&xsd;string">Supraventricular tachycardia with a manifest accessory pathway on the septum</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0011694"/>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011699 -->
+
+    <owl:Class rdf:about="&obo;HP_0011699">
+        <rdfs:label rdf:datatype="&xsd;string">Atrial reentry tachycardia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0001692"/>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011700 -->
+
+    <owl:Class rdf:about="&obo;HP_0011700">
+        <rdfs:label rdf:datatype="&xsd;string">Automatic atrial tachycardia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0001692"/>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011701 -->
+
+    <owl:Class rdf:about="&obo;HP_0011701">
+        <rdfs:label rdf:datatype="&xsd;string">Multifocal atrial tachycardia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0001692"/>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011702 -->
+
+    <owl:Class rdf:about="&obo;HP_0011702">
+        <rdfs:label rdf:datatype="&xsd;string">Abnormal electrophysiology of sinoatrial node origin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0011675"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">An abnormality of the sinoatrial (SA) node in the right atrium. THe SA node acts as the pacemaker of the heart.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011703 -->
+
+    <owl:Class rdf:about="&obo;HP_0011703">
+        <rdfs:label rdf:datatype="&xsd;string">Sinus tachycardia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0011702"/>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011704 -->
+
+    <owl:Class rdf:about="&obo;HP_0011704">
+        <rdfs:label rdf:datatype="&xsd;string">Sick sinus syndrome</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0011702"/>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0012722"/>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011705 -->
+
+    <owl:Class rdf:about="&obo;HP_0011705">
+        <rdfs:label rdf:datatype="&xsd;string">First degree atrioventricular block</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0001678"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Delay of conduction through the atrioventricular node, which is manifested as prolongation of the PR interval in the electrocardiogram (EKG). All atrial impulses reach the ventricles.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011706 -->
+
+    <owl:Class rdf:about="&obo;HP_0011706">
+        <rdfs:label rdf:datatype="&xsd;string">Second degree atrioventricular block</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0001678"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">An intermittent atrioventricular block with failure of some atrial impulses to conduct to the ventricles, i.e., some but not all atrial impulses are conducted through the atrioventricular node and trigger ventricular contraction.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011707 -->
+
+    <owl:Class rdf:about="&obo;HP_0011707">
+        <rdfs:label rdf:datatype="&xsd;string">Mobitz I atrioventricular block</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0011706"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Progressive PR interval prolongation with the subsequent occurrence of a single nonconducted P wave that results in a pause. The pause that follows the nonconducted impulse is less than fully compensatory (less than the sum of two normal sinus intervals).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011708 -->
+
+    <owl:Class rdf:about="&obo;HP_0011708">
+        <rdfs:label rdf:datatype="&xsd;string">Mobitz II atrioventricular block</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0011706"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A type of second degree atrioventricular (AV) block characterized by sudden failure to conduct an impulse through the AV node without a preceding change in the PR interval.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011709 -->
+
+    <owl:Class rdf:about="&obo;HP_0011709">
+        <rdfs:label rdf:datatype="&xsd;string">Atrioventricular dissociation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0005150"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Atrioventricular (AV) dissociation is present if the atria and the ventricles are under the control of two separate pacemakers. AV dissociation can occur is the absence of a primary AV conduction disturbance.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011710 -->
+
+    <owl:Class rdf:about="&obo;HP_0011710">
+        <rdfs:label rdf:datatype="&xsd;string">Bundle branch block</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0005150"/>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0012722"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Block of conduction of electrical impulses along the Bundle of His or along one of its bundle branches.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011711 -->
+
+    <owl:Class rdf:about="&obo;HP_0011711">
+        <rdfs:label rdf:datatype="&xsd;string">Left anterior fascicular block</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0011713"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Conduction block in the anterior division of the left bundle branch of the bundle of His.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011712 -->
+
+    <owl:Class rdf:about="&obo;HP_0011712">
+        <rdfs:label rdf:datatype="&xsd;string">Right bundle branch block</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0011710"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A conduction block of the right branch of the bundle of His. This manifests as a prolongation of the QRS complex (greater than 0.12 s) with delayed activation of the right ventricle and terminal delay on the EKG.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011713 -->
+
+    <owl:Class rdf:about="&obo;HP_0011713">
+        <rdfs:label rdf:datatype="&xsd;string">Left bundle branch block</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0011710"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A conduction block of the left branch of the bundle of His. This manifests as a generalized disturbance of QRS morphology on EKG.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011715 -->
+
+    <owl:Class rdf:about="&obo;HP_0011715">
+        <rdfs:label rdf:datatype="&xsd;string">Trifascicular block</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0011710"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Abnormal conduction in all three divisions of the intraventricular conducting tissue.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011716 -->
+
+    <owl:Class rdf:about="&obo;HP_0011716">
+        <rdfs:label rdf:datatype="&xsd;string">Junctional ectopic tachycardia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0011687"/>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011717 -->
+
+    <owl:Class rdf:about="&obo;HP_0011717">
+        <rdfs:label rdf:datatype="&xsd;string">AV nodal reentry tachycardia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0011687"/>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011725 -->
+
+    <owl:Class rdf:about="&obo;HP_0011725">
+        <rdfs:label rdf:datatype="&xsd;string">Chaotic multifocal atrial tachycardia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0001692"/>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011841 -->
+
+    <owl:Class rdf:about="&obo;HP_0011841">
+        <rdfs:label rdf:datatype="&xsd;string">Ventricular flutter</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0004756"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A potentially lethal cardiac arrhythmia characterized by an extremely rapid, hemodynamically unstable ventricular tachycardia (150-300 beats/min) with a large oscillating sine-wave appearance.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011947 -->
+
+    <owl:Class rdf:about="&obo;HP_0011947">
+        <rdfs:label rdf:datatype="&xsd;string">Respiratory tract infection</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0002086"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">An infection of the upper or lower respiratory tract.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0012232 -->
+
+    <owl:Class rdf:about="&obo;HP_0012232">
+        <rdfs:label rdf:datatype="&xsd;string">Shortened QT interval</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0003115"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Decreased time between the start of the Q wave and the end of the T wave as measured by the electrocardiogram (EKG).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0012248 -->
+
+    <owl:Class rdf:about="&obo;HP_0012248">
+        <rdfs:label rdf:datatype="&xsd;string">Prolonged PR interval</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0003115"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Increased time for the PR interval (beginning of the P wave to the beginning of the QRS complex).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0012249 -->
+
+    <owl:Class rdf:about="&obo;HP_0012249">
+        <rdfs:label rdf:datatype="&xsd;string">Abnormal ST segment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0003115"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">An electrocardiographic anomaly of the ST segment, which is the segment that connects the QRS complex and the T wave. The ST segment normally has a duration of 80 to 120 ms, is flat and at the same level (isoelectric) as the PR and TP segment.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0012250 -->
+
+    <owl:Class rdf:about="&obo;HP_0012250">
+        <rdfs:label rdf:datatype="&xsd;string">ST segment depression</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0012249"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">An electrocardiographic anomaly in which the ST segment is observed to be located inferior to the isoelectric line.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0012251 -->
+
+    <owl:Class rdf:about="&obo;HP_0012251">
+        <rdfs:label rdf:datatype="&xsd;string">ST segment elevation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0012249"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">An electrocardiographic anomaly in which the ST segment is observed to be located superior to the isoelectric line.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0012266 -->
+
+    <owl:Class rdf:about="&obo;HP_0012266">
+        <rdfs:label rdf:datatype="&xsd;string">T-wave alternans</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0005135"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A periodic beat-to-beat variation in the amplitude or shape of the T wave in an EKG.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0012272 -->
+
+    <owl:Class rdf:about="&obo;HP_0012272">
+        <rdfs:label rdf:datatype="&xsd;string">J wave</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0003115"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The J wave is a positive convex deflection that occurs at the junction of the QRS complex and ST segment, the J-point.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0012375 -->
+
+    <owl:Class rdf:about="&obo;HP_0012375">
+        <rdfs:label rdf:datatype="&xsd;string">Chemosis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0000271"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Edema (swelling) of the bulbar conjunctiva.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0012638 -->
+
+    <owl:Class rdf:about="&obo;HP_0012638">
+        <rdfs:label rdf:datatype="&xsd;string">Abnormality of nervous system physiology</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0000118"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A functional anomaly of the nervous system.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0012718 -->
+
+    <owl:Class rdf:about="&obo;HP_0012718">
+        <rdfs:label rdf:datatype="&xsd;string">Morphological abnormality of the gastrointestinal tract</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0011024"/>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0025031"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Abnormal structure of the gastrointestinal tract.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0012719 -->
+
+    <owl:Class rdf:about="&obo;HP_0012719">
+        <rdfs:label rdf:datatype="&xsd;string">Functional abnormality of the gastrointestinal tract</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0011024"/>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0025032"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Abnormal functionality of the gastrointestinal tract.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0012722 -->
+
+    <owl:Class rdf:about="&obo;HP_0012722">
+        <rdfs:label rdf:datatype="&xsd;string">Heart block</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0011675"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Impaired conduction of cardiac impulse occurring anywhere along the conduction pathway.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0012723 -->
+
+    <owl:Class rdf:about="&obo;HP_0012723">
+        <rdfs:label rdf:datatype="&xsd;string">Sinoatrial block</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0011702"/>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0012722"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Disturbance in the atrial activation that is caused by transient failure of impulse conduction from the sinoatrial node to the cardiac atria.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0012735 -->
+
+    <owl:Class rdf:about="&obo;HP_0012735">
+        <rdfs:label rdf:datatype="&xsd;string">Cough</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ORDI_0000242"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A sudden, audible expulsion of air from the lungs through a partially closed glottis, preceded by inhalation.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0025031 -->
+
+    <owl:Class rdf:about="&obo;HP_0025031">
+        <rdfs:label xml:lang="en">Abnormality of the digestive system</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0000118"/>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0025032 -->
+
+    <owl:Class rdf:about="&obo;HP_0025032">
+        <rdfs:label xml:lang="en">Abnormality of digestive system physiology</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0025031"/>
+        <obo:IAO_0000115>A functional anomaly of the digestive system.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0025070 -->
+
+    <owl:Class rdf:about="&obo;HP_0025070">
+        <rdfs:label xml:lang="en">Abnormal U wave</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0003115"/>
+        <obo:IAO_0000115>An anomaly of the U wave of the electrocardiogram (EKG). The U wave is a small (0.5 mm) deflection immediately following the T wave, usually in the same direction as the T wave. It is best seen in leads V2 and V3.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0025071 -->
+
+    <owl:Class rdf:about="&obo;HP_0025071">
+        <rdfs:label xml:lang="en">U wave inversion</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0025070"/>
+        <obo:IAO_0000115>Direction of the U wave opposite to the T wave (i.e., below baseline) in leads with upright T waves.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0025072 -->
+
+    <owl:Class rdf:about="&obo;HP_0025072">
+        <rdfs:label xml:lang="en">Prominent U wave</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0025070"/>
+        <obo:IAO_0000115>Increased amplitude of the U wave, defined as an amplitude grerater than 1-2mm or 25 percent of the height of the T wave.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0025073 -->
+
+    <owl:Class rdf:about="&obo;HP_0025073">
+        <rdfs:label xml:lang="en">Exercise-induced U wave inversion</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0025071"/>
+        <obo:IAO_0000115>U wave inversion that is induced by exercise stress testing.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0025074 -->
+
+    <owl:Class rdf:about="&obo;HP_0025074">
+        <rdfs:label xml:lang="en">Abnormal QRS complex</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0003115"/>
+        <obo:IAO_0000115>An anomaly of the complex formed by the Q, R, and S waves, which occur in rapid succession on the electrocardiogram.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0025075 -->
+
+    <owl:Class rdf:about="&obo;HP_0025075">
+        <rdfs:label xml:lang="en">Increased QRS voltage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0025076"/>
+        <obo:IAO_0000115>Elevation of the voltage (height) of the QRS complex. There are several criteria in use, but the most common is the Sokolov-Lyon criterion (S wave depth in V1 + tallest R wave height in V5-V6 greater than 35 mm).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0025076 -->
+
+    <owl:Class rdf:about="&obo;HP_0025076">
+        <rdfs:label xml:lang="en">Abnormal QRS voltage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0025074"/>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0025077 -->
+
+    <owl:Class rdf:about="&obo;HP_0025077">
+        <rdfs:label xml:lang="en">Decreased QRS voltage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0025076"/>
+        <obo:IAO_0000115>Reduced amplitude (height) of the QRS complex of the electrocardiogram (EKG), defined as amplitudes of all the QRS complexes in the limb leads are less than 5 mm or amplitudes of all the QRS complexes in the precordial leads less than 10 mm.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0025078 -->
+
+    <owl:Class rdf:about="&obo;HP_0025078">
+        <rdfs:label xml:lang="en">Electrical alternans</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0025076"/>
+        <obo:IAO_0000115>The QRS complexes of the electrocardiogram alternate in height.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0030163 -->
+
+    <owl:Class rdf:about="&obo;HP_0030163">
+        <rdfs:label>Abnormal vascular physiology</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0001626"/>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0011025"/>
+        <obo:IAO_0000115>Abnormality of vascular function.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0030718 -->
+
+    <owl:Class rdf:about="&obo;HP_0030718">
+        <rdfs:label>Right atrial enlargement</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0001627"/>
+        <obo:IAO_0000115>Increase in size of the right atrium.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0030828 -->
+
+    <owl:Class rdf:about="&obo;HP_0030828">
+        <rdfs:label>Wheezing</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0030829"/>
+        <obo:IAO_0000115>A high-pitched whistling sound associated with labored breathing.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0030829 -->
+
+    <owl:Class rdf:about="&obo;HP_0030829">
+        <rdfs:label>Abnormal breath sound</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0002795"/>
+        <obo:IAO_0000115>An anomalous (adventitious) sound produced by the breathing process.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0030830 -->
+
+    <owl:Class rdf:about="&obo;HP_0030830">
+        <rdfs:label>Rales</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0030829"/>
+        <obo:IAO_0000115>Abnormal breath sounds characterized by discontinuous clicking or rattling.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0030831 -->
+
+    <owl:Class rdf:about="&obo;HP_0030831">
+        <rdfs:label>Rhonchi</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0030829"/>
+        <obo:IAO_0000115>Abnormal breath sounds characterized by low-pitched, snoring or rattle-like sounds.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0030848 -->
+
+    <owl:Class rdf:about="&obo;HP_0030848">
+        <rdfs:label>Elevated jugular venous pressure</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0030163"/>
+        <obo:IAO_0000115>Increased jugular venous pressure.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0030956 -->
+
+    <owl:Class rdf:about="&obo;HP_0030956">
+        <rdfs:label>Abnormality of cardiovascular system electrophysiology</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0011025"/>
+        <obo:IAO_0000115>An anomaly of the electrical conduction physiology of the heart.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0040182 -->
+
+    <owl:Class rdf:about="&obo;HP_0040182">
+        <rdfs:label>Inappropriate sinus tachycardia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0011703"/>
+        <obo:IAO_0000115>Inappropriate sinus tachycardia is a nonparoxysmal tachyarrhythmia characterized by an increased resting heart rate (HR) and/or an exaggerated HR response to minimal exertion or a change in body posture. HR is constantly above the physiological range with no appropriate relation to metabolic or physiological demands.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ORDI_0000242 -->
+
+    <owl:Class rdf:about="&obo;ORDI_0000242">
+        <rdfs:subClassOf rdf:resource="&obo;HP_0002795"/>
+        <obo:IAO_0000115>A functional respiratory abnormality that represents respiratory symptom abnormalities.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/SYMP_0000431 -->
+
+    <owl:Class rdf:about="&obo;&obo;SYMP_0000431">
+        <rdfs:subClassOf rdf:resource="&obo;ORDI_0000242"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A respiratory system symptom consisting of the matter discharged from the air passages in diseases of the lungs, bronchi, or upper respiratory tract that contains mucus and often pus, blood, fibrin, or bacterial products. [database_cross_reference: URL:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&amp;va=sputum]</obo:IAO_0000115>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+

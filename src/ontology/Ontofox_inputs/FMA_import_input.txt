@@ -1,0 +1,22 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/ordi/FMA_imports.owl
+
+[Source ontology]
+FMA
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/FMA_61534 #Right lateral part of chest
+http://purl.obolibrary.org/obo/FMA_62955 #Anatomical entity
+ http://purl.obolibrary.org/obo/FMA_73100 #Left side of chest
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/FMA_62955 #Anatomical entity
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040 #material entity
+
+[Source term retrieval setting]
+includeComputedIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]

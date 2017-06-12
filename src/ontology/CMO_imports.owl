@@ -1,0 +1,1073 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY obo "http://purl.obolibrary.org/obo/" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY oboInOwl "http://www.geneontology.org/formats/oboInOwl#" >
+]>
+
+
+<rdf:RDF xmlns="&obo;ordi/CMO_imports.owl#"
+     xml:base="&obo;ordi/CMO_imports.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/">
+    <owl:Ontology rdf:about="&obo;ordi/CMO_imports.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000115">
+        <rdfs:label rdf:datatype="&xsd;string">definition</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/created_by -->
+
+    <owl:AnnotationProperty rdf:about="&obo;created_by"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/creation_date -->
+
+    <owl:AnnotationProperty rdf:about="&obo;creation_date"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/hasBroadSynonym -->
+
+    <owl:AnnotationProperty rdf:about="&obo;hasBroadSynonym"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/hasDbXref -->
+
+    <owl:AnnotationProperty rdf:about="&obo;hasDbXref"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="&obo;hasExactSynonym"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/hasOBONamespace -->
+
+    <owl:AnnotationProperty rdf:about="&obo;hasOBONamespace"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/hasRelatedSynonym -->
+
+    <owl:AnnotationProperty rdf:about="&obo;hasRelatedSynonym"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/id -->
+
+    <owl:AnnotationProperty rdf:about="&obo;id"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#created_by -->
+
+    <owl:AnnotationProperty rdf:about="&oboInOwl;created_by"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#creation_date -->
+
+    <owl:AnnotationProperty rdf:about="&oboInOwl;creation_date"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym -->
+
+    <owl:AnnotationProperty rdf:about="&oboInOwl;hasBroadSynonym">
+        <rdfs:label rdf:datatype="&xsd;string">has_broad_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+    <owl:AnnotationProperty rdf:about="&oboInOwl;hasDbXref">
+        <rdfs:label rdf:datatype="&xsd;string">database_cross_reference</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="&oboInOwl;hasExactSynonym">
+        <rdfs:label rdf:datatype="&xsd;string">has_exact_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
+
+    <owl:AnnotationProperty rdf:about="&oboInOwl;hasOBONamespace">
+        <rdfs:label rdf:datatype="&xsd;string">has_obo_namespace</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
+
+    <owl:AnnotationProperty rdf:about="&oboInOwl;hasRelatedSynonym">
+        <rdfs:label rdf:datatype="&xsd;string">has_related_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+    <owl:AnnotationProperty rdf:about="&oboInOwl;id"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
+
+    <owl:AnnotationProperty rdf:about="&rdfs;comment"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <owl:AnnotationProperty rdf:about="&rdfs;label"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000000 -->
+
+    <owl:Class rdf:about="&obo;CMO_0000000">
+        <rdfs:label rdf:datatype="&xsd;string">clinical measurement</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A quantitative or qualitative value which is the result of an act of assessing a morphological or physiological state or property in a single individual or sample or a group of individuals or samples, based on direct observation or experimental manipulation.</obo:IAO_0000115>
+        <obo:id rdf:datatype="&xsd;string">CMO:0000000</obo:id>
+        <obo:hasOBONamespace rdf:datatype="&xsd;string">Clinical_Measurement.ontology</obo:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;cmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000023 -->
+
+    <owl:Class rdf:about="&obo;CMO_0000023">
+        <rdfs:label rdf:datatype="&xsd;string">blood chemistry measurement</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CMO_0000035"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A quantification of a parameter of the chemical composition of blood.</obo:IAO_0000115>
+        <obo:id rdf:datatype="&xsd;string">CMO:0000023</obo:id>
+        <obo:hasOBONamespace rdf:datatype="&xsd;string">Clinical_Measurement.ontology</obo:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;cmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000024 -->
+
+    <owl:Class rdf:about="&obo;CMO_0000024">
+        <rdfs:label rdf:datatype="&xsd;string">calculated differential white blood cell count</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CMO_0000366"/>
+        <rdfs:subClassOf rdf:resource="&obo;CMO_0002341"/>
+        <obo:creation_date rdf:datatype="&xsd;string">2010-12-13T10:32:58Z</obo:creation_date>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A measurement which has been normalized, adjusted or derived by a mathematical process or computation, of one or more of the various, specific types of leukocytes present in a sample of blood for which a total white blood cell count was taken, usually 1 cubic mm of peripheral venous blood.</obo:IAO_0000115>
+        <obo:id rdf:datatype="&xsd;string">CMO:0000024</obo:id>
+        <obo:hasOBONamespace rdf:datatype="&xsd;string">Clinical_Measurement.ontology</obo:hasOBONamespace>
+        <obo:hasRelatedSynonym rdf:datatype="&xsd;string">calculated blood differential WBC count</obo:hasRelatedSynonym>
+        <obo:hasRelatedSynonym rdf:datatype="&xsd;string">calculated blood differential leukocyte count</obo:hasRelatedSynonym>
+        <obo:created_by rdf:datatype="&xsd;string">mshimoyama</obo:created_by>
+        <obo:IAO_0000412 rdf:resource="&obo;cmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000025 -->
+
+    <owl:Class rdf:about="&obo;CMO_0000025">
+        <rdfs:label rdf:datatype="&xsd;string">red blood cell count</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CMO_0000036"/>
+        <obo:id rdf:datatype="&xsd;string">CMO:0000025</obo:id>
+        <obo:hasOBONamespace rdf:datatype="&xsd;string">Clinical_Measurement.ontology</obo:hasOBONamespace>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The number of red blood cells in a specified volume of blood most commonly 1 cubic millimeter (i.e. 1 microliter) of peripheral venous blood.</obo:IAO_0000115>
+        <obo:hasExactSynonym rdf:datatype="&xsd;string">erythrocyte count</obo:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="&obo;cmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000027 -->
+
+    <owl:Class rdf:about="&obo;CMO_0000027">
+        <rdfs:label rdf:datatype="&xsd;string">white blood cell count</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CMO_0001865"/>
+        <rdfs:subClassOf rdf:resource="&obo;CMO_0002341"/>
+        <obo:id rdf:datatype="&xsd;string">CMO:0000027</obo:id>
+        <obo:hasOBONamespace rdf:datatype="&xsd;string">Clinical_Measurement.ontology</obo:hasOBONamespace>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The number of white blood cells in a specified volume of blood.</obo:IAO_0000115>
+        <obo:hasRelatedSynonym rdf:datatype="&xsd;string">leukocyte count</obo:hasRelatedSynonym>
+        <obo:hasRelatedSynonym rdf:datatype="&xsd;string">white corpuscle count</obo:hasRelatedSynonym>
+        <obo:IAO_0000412 rdf:resource="&obo;cmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000028 -->
+
+    <owl:Class rdf:about="&obo;CMO_0000028">
+        <rdfs:label rdf:datatype="&xsd;string">blood protein measurement</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CMO_0000023"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Any measurement involving the amount, composition or type of protein, the complex organic compounds containing carbon, hydrogen, oxygen, nitrogen, and sulfur consisting of alpha-amino acids joined by peptide linkages, in blood.</obo:IAO_0000115>
+        <obo:id rdf:datatype="&xsd;string">CMO:0000028</obo:id>
+        <obo:hasOBONamespace rdf:datatype="&xsd;string">Clinical_Measurement.ontology</obo:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;cmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000029 -->
+
+    <owl:Class rdf:about="&obo;CMO_0000029">
+        <rdfs:label rdf:datatype="&xsd;string">platelet count</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CMO_0000036"/>
+        <obo:id rdf:datatype="&xsd;string">CMO:0000029</obo:id>
+        <obo:hasOBONamespace rdf:datatype="&xsd;string">Clinical_Measurement.ontology</obo:hasOBONamespace>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The number of platelets (thrombocytes) in a specified volume of blood, usually expressed as platelets per cubic millimeter of whole blood.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;cmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000030 -->
+
+    <owl:Class rdf:about="&obo;CMO_0000030">
+        <rdfs:label rdf:datatype="&xsd;string">blood neutrophil count</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CMO_0000111"/>
+        <obo:id rdf:datatype="&xsd;string">CMO:0000030</obo:id>
+        <obo:hasOBONamespace rdf:datatype="&xsd;string">Clinical_Measurement.ontology</obo:hasOBONamespace>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The number of granulocytes categorized as neutrophils in a specified volume of blood. A neutrophil is, or is in the process of becoming, a granular leucocyte having a nucleus with three to five lobes connected by threads of chromatin, cytoplasm containing very fine granules, and which is readily stainable with neutral dyes.</obo:IAO_0000115>
+        <obo:hasExactSynonym rdf:datatype="&xsd;string">neutrophil granulocyte count</obo:hasExactSynonym>
+        <obo:hasBroadSynonym rdf:datatype="&xsd;string">polymorphonuclear cell count</obo:hasBroadSynonym>
+        <obo:IAO_0000412 rdf:resource="&obo;cmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000031 -->
+
+    <owl:Class rdf:about="&obo;CMO_0000031">
+        <rdfs:label rdf:datatype="&xsd;string">blood lymphocyte count</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CMO_0001495"/>
+        <obo:id rdf:datatype="&xsd;string">CMO:0000031</obo:id>
+        <obo:hasOBONamespace rdf:datatype="&xsd;string">Clinical_Measurement.ontology</obo:hasOBONamespace>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The number of lymphocytes in a specified volume of blood.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;cmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000035 -->
+
+    <owl:Class rdf:about="&obo;CMO_0000035">
+        <rdfs:label rdf:datatype="&xsd;string">blood measurement</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CMO_0000000"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A measurement of the blood, it&apos;s contents, cells or other factors contained within the blood.</obo:IAO_0000115>
+        <obo:id rdf:datatype="&xsd;string">CMO:0000035</obo:id>
+        <obo:hasOBONamespace rdf:datatype="&xsd;string">Clinical_Measurement.ontology</obo:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;cmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000036 -->
+
+    <owl:Class rdf:about="&obo;CMO_0000036">
+        <rdfs:label rdf:datatype="&xsd;string">blood cell measurement</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CMO_0000035"/>
+        <rdfs:subClassOf rdf:resource="&obo;CMO_0000227"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A value resulting from the quantification of a morphological or physiological parameter of blood cells, i.e. cells native to the circulation, including those of erythroid, lymphoid, myeloid and monocytic lineages. A cell is a membrane-enclosed protoplasmic mass constituting the smallest structural unit of an organism that is capable of independent functioning.</obo:IAO_0000115>
+        <obo:id rdf:datatype="&xsd;string">CMO:0000036</obo:id>
+        <obo:hasOBONamespace rdf:datatype="&xsd;string">Clinical_Measurement.ontology</obo:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;cmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000042 -->
+
+    <owl:Class rdf:about="&obo;CMO_0000042">
+        <rdfs:label rdf:datatype="&xsd;string">plasma glucose level</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CMO_0000023"/>
+        <obo:id rdf:datatype="&xsd;string">CMO:0000042</obo:id>
+        <obo:hasOBONamespace rdf:datatype="&xsd;string">Clinical_Measurement.ontology</obo:hasOBONamespace>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Measurement of the amount of glucose, the monosaccharide sugar, C6H12O6, occurring widely in plant and animal tissues which is one of the three dietary monosaccharides that are absorbed directly into the bloodstream during digestion, is the end product of carbohydrate metabolism, and is the chief source of energy for living organisms, in a specified volume of plasma, the fibrinogen-containing fluid portion of the blood in which the particulate components are suspended.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;cmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000043 -->
+
+    <owl:Class rdf:about="&obo;CMO_0000043">
+        <rdfs:label rdf:datatype="&xsd;string">plasma aspartate aminotransferase activity level</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CMO_0000064"/>
+        <obo:id rdf:datatype="&xsd;string">CMO:0000043</obo:id>
+        <obo:hasOBONamespace rdf:datatype="&xsd;string">Clinical_Measurement.ontology</obo:hasOBONamespace>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The amount of enzymatic activity of glutamic-oxaloacetic transaminase enzyme, commonly known as aspartate transaminase or aspartate aminotransferase (AST), in a specified sample of plasma. AST catalyzes the reversible transfer of an amine group from l-glutamic acid to oxaloacetic acid, forming alpha-ketoglutaric acid and l-aspartic acid. Plasma AST level is used as an enzymatic marker for liver disease or damage.</obo:IAO_0000115>
+        <obo:hasRelatedSynonym rdf:datatype="&xsd;string">plasma AST activity level</obo:hasRelatedSynonym>
+        <obo:hasRelatedSynonym rdf:datatype="&xsd;string">plasma GOT activity level</obo:hasRelatedSynonym>
+        <obo:hasExactSynonym rdf:datatype="&xsd;string">plasma aspartate transaminase activity level</obo:hasExactSynonym>
+        <obo:hasExactSynonym rdf:datatype="&xsd;string">plasma glutamic-oxaloacetic transaminase activity level</obo:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="&obo;cmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000047 -->
+
+    <owl:Class rdf:about="&obo;CMO_0000047">
+        <rdfs:label rdf:datatype="&xsd;string">indirect plasma bilirubin level</rdfs:label>
+        <obo:id rdf:datatype="&xsd;string">CMO:0000047</obo:id>
+        <obo:hasOBONamespace rdf:datatype="&xsd;string">Clinical_Measurement.ontology</obo:hasOBONamespace>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The amount of indirect or unconjugated bilirubin in a specified sample of blood plasma. Indirect bilirubin is the lipid-soluble form of bilirubin  that circulates in loose association with the plasma proteins. It can be calculated by subtracting direct bilirubin level from the total bilirubin level.</obo:IAO_0000115>
+        <obo:hasRelatedSynonym rdf:datatype="&xsd;string">plasma unconjugated bilirubin level</obo:hasRelatedSynonym>
+        <obo:IAO_0000412 rdf:resource="&obo;cmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000048 -->
+
+    <owl:Class rdf:about="&obo;CMO_0000048">
+        <rdfs:label rdf:datatype="&xsd;string">direct plasma bilirubin level</rdfs:label>
+        <obo:id rdf:datatype="&xsd;string">CMO:0000048</obo:id>
+        <obo:hasOBONamespace rdf:datatype="&xsd;string">Clinical_Measurement.ontology</obo:hasOBONamespace>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The level of direct bilirubin in a specified sample of blood plasma. Direct bilirubin is produced when the unconjugated form is carried to the liver where it is conjugated to form the water-soluble bilirubin diglucuronide.</obo:IAO_0000115>
+        <obo:hasRelatedSynonym rdf:datatype="&xsd;string">plasma conjugated bilirubin level</obo:hasRelatedSynonym>
+        <obo:IAO_0000412 rdf:resource="&obo;cmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000050 -->
+
+    <owl:Class rdf:about="&obo;CMO_0000050">
+        <rdfs:label rdf:datatype="&xsd;string">blood lipid measurement</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CMO_0000023"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Any value resulting from the quantification of a morphological or physiological parameter of a blood-derived lipid, any of a structurally diverse group of organic compounds found in blood that are insoluble in water but soluble innonpolar solvents that, among other biological functions, serve as a source of fuel and are an important constituent of cell structure.</obo:IAO_0000115>
+        <obo:id rdf:datatype="&xsd;string">CMO:0000050</obo:id>
+        <obo:hasOBONamespace rdf:datatype="&xsd;string">Clinical_Measurement.ontology</obo:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;cmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000054 -->
+
+    <owl:Class rdf:about="&obo;CMO_0000054">
+        <rdfs:label rdf:datatype="&xsd;string">plasma total protein level</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CMO_0000028"/>
+        <obo:id rdf:datatype="&xsd;string">CMO:0000054</obo:id>
+        <obo:hasOBONamespace rdf:datatype="&xsd;string">Clinical_Measurement.ontology</obo:hasOBONamespace>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Measurement of the total amount of all proteins, the complex organic compounds containing carbon, hydrogen, oxygen, nitrogen, and sulfur consisting of alpha-amino acids joined by peptide linkages, found in a specific volume of plasma, the fibrinogen-containing fluid portion of the blood in which the particulate components are suspended.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;cmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000062 -->
+
+    <owl:Class rdf:about="&obo;CMO_0000062">
+        <rdfs:label rdf:datatype="&xsd;string">plasma bicarbonate level</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CMO_0000063"/>
+        <obo:id rdf:datatype="&xsd;string">CMO:0000062</obo:id>
+        <obo:hasOBONamespace rdf:datatype="&xsd;string">Clinical_Measurement.ontology</obo:hasOBONamespace>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The amount of carbonic acid dissolved in carbon dioxide and bicarbonate ion found in a specific volume of plasma.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;cmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000063 -->
+
+    <owl:Class rdf:about="&obo;CMO_0000063">
+        <rdfs:label rdf:datatype="&xsd;string">blood electrolyte measurement</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CMO_0000023"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A quantification of one or more mineral salts found in the blood in the form of electrically charged ions.</obo:IAO_0000115>
+        <obo:id rdf:datatype="&xsd;string">CMO:0000063</obo:id>
+        <obo:hasOBONamespace rdf:datatype="&xsd;string">Clinical_Measurement.ontology</obo:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;cmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000064 -->
+
+    <owl:Class rdf:about="&obo;CMO_0000064">
+        <rdfs:label rdf:datatype="&xsd;string">blood enzyme activity level</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CMO_0000028"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Any quantitation of the catalytic effect exerted by an enzyme in a specified sample of blood. An enzyme is a protein that catalyzes chemical reactions of other substances without itself being destroyed or altered upon completion of the reaction(s).</obo:IAO_0000115>
+        <obo:id rdf:datatype="&xsd;string">CMO:0000064</obo:id>
+        <obo:hasOBONamespace rdf:datatype="&xsd;string">Clinical_Measurement.ontology</obo:hasOBONamespace>
+        <obo:hasRelatedSynonym rdf:datatype="&xsd;string">Not4Curation</obo:hasRelatedSynonym>
+        <obo:IAO_0000412 rdf:resource="&obo;cmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000094 -->
+
+    <owl:Class rdf:about="&obo;CMO_0000094">
+        <rdfs:label rdf:datatype="&xsd;string">respiratory system measurement</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CMO_0000000"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A measurement to assess the morphological or physiological state of the respiratory system or portion of the respiratory system.</obo:IAO_0000115>
+        <obo:id rdf:datatype="&xsd;string">CMO:0000094</obo:id>
+        <obo:hasOBONamespace rdf:datatype="&xsd;string">Clinical_Measurement.ontology</obo:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;cmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000111 -->
+
+    <owl:Class rdf:about="&obo;CMO_0000111">
+        <rdfs:label rdf:datatype="&xsd;string">blood granulocyte count</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CMO_0000366"/>
+        <obo:creation_date rdf:datatype="&xsd;string">2009-12-17T08:22:51Z</obo:creation_date>
+        <obo:id rdf:datatype="&xsd;string">CMO:0000111</obo:id>
+        <obo:hasOBONamespace rdf:datatype="&xsd;string">Clinical_Measurement.ontology</obo:hasOBONamespace>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The number of granulocytes (polymorphonuclear leukocytes) in a specified volume of blood, usually 1 cubic millimeter.</obo:IAO_0000115>
+        <obo:created_by rdf:datatype="&xsd;string">mshimoyama</obo:created_by>
+        <obo:IAO_0000412 rdf:resource="&obo;cmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000225 -->
+
+    <owl:Class rdf:about="&obo;CMO_0000225">
+        <rdfs:label rdf:datatype="&xsd;string">arterial blood gas measurement</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CMO_0000035"/>
+        <obo:creation_date rdf:datatype="&xsd;string">2010-06-25T10:29:56Z</obo:creation_date>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Any measurement of a gas or gases dissolved in arterial blood, that is, blood which has absorbed oxygen in the lungs, including oxygen, nitrogen carbon dioxide and/or hydrogen.</obo:IAO_0000115>
+        <obo:id rdf:datatype="&xsd;string">CMO:0000225</obo:id>
+        <obo:hasOBONamespace rdf:datatype="&xsd;string">Clinical_Measurement.ontology</obo:hasOBONamespace>
+        <obo:created_by rdf:datatype="&xsd;string">mshimoyama</obo:created_by>
+        <obo:IAO_0000412 rdf:resource="&obo;cmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000227 -->
+
+    <owl:Class rdf:about="&obo;CMO_0000227">
+        <rdfs:label rdf:datatype="&xsd;string">cell measurement</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CMO_0000000"/>
+        <obo:creation_date rdf:datatype="&xsd;string">2010-06-17T10:30:36Z</obo:creation_date>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Any quantification of a morphological or physiological parameter of one or more cells.  A cell is a membrane-enclosed protoplasmic mass constituting the smallest structural unit of an organism that is capable of independent functioning.</obo:IAO_0000115>
+        <obo:id rdf:datatype="&xsd;string">CMO:0000227</obo:id>
+        <obo:hasOBONamespace rdf:datatype="&xsd;string">Clinical_Measurement.ontology</obo:hasOBONamespace>
+        <obo:created_by rdf:datatype="&xsd;string">mshimoyama</obo:created_by>
+        <obo:IAO_0000412 rdf:resource="&obo;cmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000251 -->
+
+    <owl:Class rdf:about="&obo;CMO_0000251">
+        <rdfs:label rdf:datatype="&xsd;string">forced vital capacity (FVC)</rdfs:label>
+        <obo:creation_date rdf:datatype="&xsd;string">2010-06-17T12:18:18Z</obo:creation_date>
+        <obo:id rdf:datatype="&xsd;string">CMO:0000251</obo:id>
+        <obo:hasOBONamespace rdf:datatype="&xsd;string">Clinical_Measurement.ontology</obo:hasOBONamespace>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The volume of air that can be forcibly expelled from a maximally inflated lung.</obo:IAO_0000115>
+        <obo:hasRelatedSynonym rdf:datatype="&xsd;string">forced expired vital capacity</obo:hasRelatedSynonym>
+        <obo:created_by rdf:datatype="&xsd;string">mshimoyama</obo:created_by>
+        <obo:IAO_0000412 rdf:resource="&obo;cmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000253 -->
+
+    <owl:Class rdf:about="&obo;CMO_0000253">
+        <rdfs:label rdf:datatype="&xsd;string">maximum mid-expiratory flow (MMEF)</rdfs:label>
+        <obo:creation_date rdf:datatype="&xsd;string">2010-06-17T12:19:05Z</obo:creation_date>
+        <obo:id rdf:datatype="&xsd;string">CMO:0000253</obo:id>
+        <obo:hasOBONamespace rdf:datatype="&xsd;string">Clinical_Measurement.ontology</obo:hasOBONamespace>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Maximal rate of air flow through the pulmonary tree during forced expiration.</obo:IAO_0000115>
+        <obo:hasRelatedSynonym rdf:datatype="&xsd;string">PEF</obo:hasRelatedSynonym>
+        <obo:created_by rdf:datatype="&xsd;string">mshimoyama</obo:created_by>
+        <obo:hasRelatedSynonym rdf:datatype="&xsd;string">peak expiratory flow</obo:hasRelatedSynonym>
+        <obo:IAO_0000412 rdf:resource="&obo;cmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000283 -->
+
+    <owl:Class rdf:about="&obo;CMO_0000283">
+        <rdfs:label rdf:datatype="&xsd;string">partial pressure of blood carbon dioxide (Pco2)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CMO_0000225"/>
+        <obo:creation_date rdf:datatype="&xsd;string">2010-12-13T02:40:09Z</obo:creation_date>
+        <obo:id rdf:datatype="&xsd;string">CMO:0000283</obo:id>
+        <obo:hasOBONamespace rdf:datatype="&xsd;string">Clinical_Measurement.ontology</obo:hasOBONamespace>
+        <obo:hasRelatedSynonym rdf:datatype="&xsd;string">PaCO2</obo:hasRelatedSynonym>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The force per unit area attributable to the carbon dioxide, a colorless, odorless, incombustible gas formed during respiration and composed of one atom of carbon and two atoms of oxygen, dissolved in a specified volume of blood, defined as the force per unit area exerted by carbon dioxide in a mixture of gases in equilibrium with such a sample of blood at the same temperature.</obo:IAO_0000115>
+        <obo:created_by rdf:datatype="&xsd;string">mshimoyama</obo:created_by>
+        <obo:IAO_0000412 rdf:resource="&obo;cmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000298 -->
+
+    <owl:Class rdf:about="&obo;CMO_0000298">
+        <rdfs:label rdf:datatype="&xsd;string">absolute change in partial pressure of blood carbon dioxide</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CMO_0000225"/>
+        <obo:creation_date rdf:datatype="&xsd;string">2011-09-21T11:44:45Z</obo:creation_date>
+        <obo:id rdf:datatype="&xsd;string">CMO:0000298</obo:id>
+        <obo:hasOBONamespace rdf:datatype="&xsd;string">Clinical_Measurement.ontology</obo:hasOBONamespace>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The difference between partial pressure of blood carbon dioxide between two points in time or two conditions.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="&xsd;string">The term &quot;absolute change&quot; refers to the subtraction of one value from another, as opposed to a dissimilarity of two values expressed as a ratio or as a percentage. In this context it is not intended to necessarily imply the difference expressed as an absolute value |n|, that is, the numeric value of the difference without regard to its sign.</rdfs:comment>
+        <obo:created_by rdf:datatype="&xsd;string">mshimoyama</obo:created_by>
+        <obo:IAO_0000412 rdf:resource="&obo;cmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000299 -->
+
+    <owl:Class rdf:about="&obo;CMO_0000299">
+        <rdfs:label rdf:datatype="&xsd;string">absolute change in partial pressure of blood oxygen</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CMO_0000225"/>
+        <obo:creation_date rdf:datatype="&xsd;string">2011-09-21T11:47:26Z</obo:creation_date>
+        <obo:id rdf:datatype="&xsd;string">CMO:0000299</obo:id>
+        <obo:hasOBONamespace rdf:datatype="&xsd;string">Clinical_Measurement.ontology</obo:hasOBONamespace>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Difference in partial pressure of blood oxygen between two points in time or two conditions.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="&xsd;string">The term &quot;absolute change&quot; refers to the subtraction of one value from another, as opposed to a dissimilarity of two values expressed as a ratio or as a percentage. In this context it is not intended to necessarily imply the difference expressed as an absolute value |n|, that is, the numeric value of the difference without regard to its sign.</rdfs:comment>
+        <obo:created_by rdf:datatype="&xsd;string">mshimoyama</obo:created_by>
+        <obo:IAO_0000412 rdf:resource="&obo;cmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000364 -->
+
+    <owl:Class rdf:about="&obo;CMO_0000364">
+        <rdfs:label rdf:datatype="&xsd;string">complete blood cell count</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CMO_0000036"/>
+        <obo:creation_date rdf:datatype="&xsd;string">2010-12-13T09:32:14Z</obo:creation_date>
+        <obo:hasRelatedSynonym rdf:datatype="&xsd;string">CBC</obo:hasRelatedSynonym>
+        <obo:id rdf:datatype="&xsd;string">CMO:0000364</obo:id>
+        <obo:hasOBONamespace rdf:datatype="&xsd;string">Clinical_Measurement.ontology</obo:hasOBONamespace>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The calculation of the cellular elements of the blood, usually including cell counts for white and red blood cells and platelets.</obo:IAO_0000115>
+        <obo:created_by rdf:datatype="&xsd;string">mshimoyama</obo:created_by>
+        <obo:IAO_0000412 rdf:resource="&obo;cmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000365 -->
+
+    <owl:Class rdf:about="&obo;CMO_0000365">
+        <rdfs:label rdf:datatype="&xsd;string">total white blood cell count</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CMO_0000027"/>
+        <obo:creation_date rdf:datatype="&xsd;string">2010-12-13T10:22:15Z</obo:creation_date>
+        <obo:id rdf:datatype="&xsd;string">CMO:0000365</obo:id>
+        <obo:hasOBONamespace rdf:datatype="&xsd;string">Clinical_Measurement.ontology</obo:hasOBONamespace>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The total number of leukocytes in 1 cubic millimeter of peripheral venous blood.</obo:IAO_0000115>
+        <obo:created_by rdf:datatype="&xsd;string">mshimoyama</obo:created_by>
+        <obo:IAO_0000412 rdf:resource="&obo;cmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000366 -->
+
+    <owl:Class rdf:about="&obo;CMO_0000366">
+        <rdfs:label rdf:datatype="&xsd;string">blood differential white blood cell count</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CMO_0000027"/>
+        <obo:creation_date rdf:datatype="&xsd;string">2010-12-13T10:24:28Z</obo:creation_date>
+        <obo:id rdf:datatype="&xsd;string">CMO:0000366</obo:id>
+        <obo:hasOBONamespace rdf:datatype="&xsd;string">Clinical_Measurement.ontology</obo:hasOBONamespace>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The number of each type of leukocyte present in a specific volume of blood, usually 1 cubic millimeter.</obo:IAO_0000115>
+        <obo:hasRelatedSynonym rdf:datatype="&xsd;string">blood differential WBC count</obo:hasRelatedSynonym>
+        <obo:hasExactSynonym rdf:datatype="&xsd;string">blood differential leukocyte count</obo:hasExactSynonym>
+        <obo:created_by rdf:datatype="&xsd;string">mshimoyama</obo:created_by>
+        <obo:IAO_0000412 rdf:resource="&obo;cmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000367 -->
+
+    <owl:Class rdf:about="&obo;CMO_0000367">
+        <rdfs:label rdf:datatype="&xsd;string">blood granulocyte count to total leukocyte count ratio</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CMO_0000111"/>
+        <rdfs:subClassOf rdf:resource="&obo;CMO_0002349"/>
+        <obo:creation_date rdf:datatype="&xsd;string">2010-12-13T10:35:10Z</obo:creation_date>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A calculated measurement in which the number of all granulocytes (regardless of type) in a specified sample of blood is divided by the total number of white blood cells in the sample, and the result presented as a ratio, fraction, quotient or percentage.</obo:IAO_0000115>
+        <obo:id rdf:datatype="&xsd;string">CMO:0000367</obo:id>
+        <obo:hasOBONamespace rdf:datatype="&xsd;string">Clinical_Measurement.ontology</obo:hasOBONamespace>
+        <obo:hasRelatedSynonym rdf:datatype="&xsd;string">granulocyte count as percentage of total white blood cells</obo:hasRelatedSynonym>
+        <obo:hasRelatedSynonym rdf:datatype="&xsd;string">granulocyte count to total WBC count ratio</obo:hasRelatedSynonym>
+        <obo:hasRelatedSynonym rdf:datatype="&xsd;string">granulocyte count to total white blood cell count ratio</obo:hasRelatedSynonym>
+        <obo:hasRelatedSynonym rdf:datatype="&xsd;string">granulocyte percentage</obo:hasRelatedSynonym>
+        <obo:created_by rdf:datatype="&xsd;string">mshimoyama</obo:created_by>
+        <obo:IAO_0000412 rdf:resource="&obo;cmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000369 -->
+
+    <owl:Class rdf:about="&obo;CMO_0000369">
+        <rdfs:label rdf:datatype="&xsd;string">blood eosinophil count to total leukocyte count ratio</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CMO_0000111"/>
+        <rdfs:subClassOf rdf:resource="&obo;CMO_0000367"/>
+        <obo:creation_date rdf:datatype="&xsd;string">2010-12-13T10:38:12Z</obo:creation_date>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A calculated measurement in which the number of eosinophil granulocytes is divided by the number of all white blood cells in a specified sample of peripheral venous blood, and the result presented as a ratio, fraction, quotient or percentage. An eosinophil is a granular leukocyte having a nucleus with two lobes connected by a thread of chromatin, and cytoplasm containing coarse, round granules of uniform size that stain readily with eosin and other acid dyes.</obo:IAO_0000115>
+        <obo:id rdf:datatype="&xsd;string">CMO:0000369</obo:id>
+        <obo:hasOBONamespace rdf:datatype="&xsd;string">Clinical_Measurement.ontology</obo:hasOBONamespace>
+        <obo:hasRelatedSynonym rdf:datatype="&xsd;string">eosinophil count as percentage of total white blood cells</obo:hasRelatedSynonym>
+        <obo:hasRelatedSynonym rdf:datatype="&xsd;string">eosinophil count to total WBC count ratio</obo:hasRelatedSynonym>
+        <obo:hasRelatedSynonym rdf:datatype="&xsd;string">eosinophil granulocyte percentage</obo:hasRelatedSynonym>
+        <obo:hasRelatedSynonym rdf:datatype="&xsd;string">eosinophil percentage</obo:hasRelatedSynonym>
+        <obo:created_by rdf:datatype="&xsd;string">mshimoyama</obo:created_by>
+        <obo:IAO_0000412 rdf:resource="&obo;cmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000370 -->
+
+    <owl:Class rdf:about="&obo;CMO_0000370">
+        <rdfs:label rdf:datatype="&xsd;string">blood neutrophil count to total leukocyte count ratio</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CMO_0000030"/>
+        <rdfs:subClassOf rdf:resource="&obo;CMO_0000367"/>
+        <obo:creation_date rdf:datatype="&xsd;string">2010-12-13T10:39:37Z</obo:creation_date>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A calculated measurement in which the number of neutrophil granulocytes is divided by the number of all white blood cells in a specified sample of peripheral venous blood, and the result presented as a ratio, fraction, quotient or percentage. A neutrophil is, or is in the process of becoming, a granular leucocyte having a nucleus with three to five lobes connected by threads of chromatin, cytoplasm containing very fine granules, and which is readily stainable with neutral dyes.</obo:IAO_0000115>
+        <obo:id rdf:datatype="&xsd;string">CMO:0000370</obo:id>
+        <obo:hasOBONamespace rdf:datatype="&xsd;string">Clinical_Measurement.ontology</obo:hasOBONamespace>
+        <obo:created_by rdf:datatype="&xsd;string">mshimoyama</obo:created_by>
+        <obo:hasRelatedSynonym rdf:datatype="&xsd;string">neutrophil count as percentage of total white blood cells</obo:hasRelatedSynonym>
+        <obo:hasRelatedSynonym rdf:datatype="&xsd;string">neutrophil count to total WBC count ratio</obo:hasRelatedSynonym>
+        <obo:hasExactSynonym rdf:datatype="&xsd;string">neutrophil granulocyte percentage</obo:hasExactSynonym>
+        <obo:hasRelatedSynonym rdf:datatype="&xsd;string">neutrophil percentage</obo:hasRelatedSynonym>
+        <obo:hasRelatedSynonym rdf:datatype="&xsd;string">polymorphonuclear cell percentage</obo:hasRelatedSynonym>
+        <obo:IAO_0000412 rdf:resource="&obo;cmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000371 -->
+
+    <owl:Class rdf:about="&obo;CMO_0000371">
+        <rdfs:label rdf:datatype="&xsd;string">blood lymphocyte count to total leukocyte count ratio</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CMO_0000031"/>
+        <rdfs:subClassOf rdf:resource="&obo;CMO_0002349"/>
+        <obo:creation_date rdf:datatype="&xsd;string">2010-12-13T10:45:39Z</obo:creation_date>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A calculated measurement in which the number of lymphocytes in a specified sample of blood is divided by the total number of white blood cells in the sample, and the result presented as a ratio, fraction, quotient or percentage.</obo:IAO_0000115>
+        <obo:id rdf:datatype="&xsd;string">CMO:0000371</obo:id>
+        <obo:hasOBONamespace rdf:datatype="&xsd;string">Clinical_Measurement.ontology</obo:hasOBONamespace>
+        <obo:hasRelatedSynonym rdf:datatype="&xsd;string">lymphocyte count as percentage of total white blood cells</obo:hasRelatedSynonym>
+        <obo:hasRelatedSynonym rdf:datatype="&xsd;string">lymphocyte count to total WBC count ratio</obo:hasRelatedSynonym>
+        <obo:hasRelatedSynonym rdf:datatype="&xsd;string">lymphocyte percentage</obo:hasRelatedSynonym>
+        <obo:created_by rdf:datatype="&xsd;string">mshimoyama</obo:created_by>
+        <obo:IAO_0000412 rdf:resource="&obo;cmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000379 -->
+
+    <owl:Class rdf:about="&obo;CMO_0000379">
+        <rdfs:label rdf:datatype="&xsd;string">blood pH</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CMO_0000035"/>
+        <obo:creation_date rdf:datatype="&xsd;string">2010-12-13T02:36:29Z</obo:creation_date>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Blood pH is a measure of its acidity and is determined by the negative logarithm of the hydrogen ion concentration in a specified sample of blood.</obo:IAO_0000115>
+        <obo:id rdf:datatype="&xsd;string">CMO:0000379</obo:id>
+        <obo:hasOBONamespace rdf:datatype="&xsd;string">Clinical_Measurement.ontology</obo:hasOBONamespace>
+        <obo:created_by rdf:datatype="&xsd;string">mshimoyama</obo:created_by>
+        <obo:IAO_0000412 rdf:resource="&obo;cmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000381 -->
+
+    <owl:Class rdf:about="&obo;CMO_0000381">
+        <rdfs:label rdf:datatype="&xsd;string">partial pressure of blood oxygen (Po2)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CMO_0000225"/>
+        <obo:creation_date rdf:datatype="&xsd;string">2010-12-13T03:58:25Z</obo:creation_date>
+        <obo:id rdf:datatype="&xsd;string">CMO:0000381</obo:id>
+        <obo:hasOBONamespace rdf:datatype="&xsd;string">Clinical_Measurement.ontology</obo:hasOBONamespace>
+        <obo:hasRelatedSynonym rdf:datatype="&xsd;string">PaO2</obo:hasRelatedSynonym>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The force per unit area attributable to the oxygen, the chemical element with atomic number 8 which is the essential agent in the respiration of plants and animals, dissolved in a specified volume of blood, defined as the force per unit area exerted by oxygen in a mixture of gases in equilibrium with such a sample of blood at the same temperature.</obo:IAO_0000115>
+        <obo:created_by rdf:datatype="&xsd;string">mshimoyama</obo:created_by>
+        <obo:IAO_0000412 rdf:resource="&obo;cmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000496 -->
+
+    <owl:Class rdf:about="&obo;CMO_0000496">
+        <rdfs:label rdf:datatype="&xsd;string">blood potassium level</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CMO_0000063"/>
+        <obo:creation_date rdf:datatype="&xsd;string">2011-01-04T02:53:16Z</obo:creation_date>
+        <obo:id rdf:datatype="&xsd;string">CMO:0000496</obo:id>
+        <obo:hasOBONamespace rdf:datatype="&xsd;string">Clinical_Measurement.ontology</obo:hasOBONamespace>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The amount of potassium ions in a specified volume of blood.</obo:IAO_0000115>
+        <obo:created_by rdf:datatype="&xsd;string">mshimoyama</obo:created_by>
+        <obo:IAO_0000412 rdf:resource="&obo;cmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000500 -->
+
+    <owl:Class rdf:about="&obo;CMO_0000500">
+        <rdfs:label rdf:datatype="&xsd;string">serum sodium level</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CMO_0000063"/>
+        <obo:creation_date rdf:datatype="&xsd;string">2011-01-04T02:56:30Z</obo:creation_date>
+        <obo:id rdf:datatype="&xsd;string">CMO:0000500</obo:id>
+        <obo:hasOBONamespace rdf:datatype="&xsd;string">Clinical_Measurement.ontology</obo:hasOBONamespace>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The amount of sodium ions in a specified volume of serum.</obo:IAO_0000115>
+        <obo:created_by rdf:datatype="&xsd;string">mshimoyama</obo:created_by>
+        <obo:IAO_0000412 rdf:resource="&obo;cmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000501 -->
+
+    <owl:Class rdf:about="&obo;CMO_0000501">
+        <rdfs:label rdf:datatype="&xsd;string">blood uric acid level</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CMO_0000023"/>
+        <obo:creation_date rdf:datatype="&xsd;string">2011-01-04T03:05:36Z</obo:creation_date>
+        <obo:id rdf:datatype="&xsd;string">CMO:0000501</obo:id>
+        <obo:hasOBONamespace rdf:datatype="&xsd;string">Clinical_Measurement.ontology</obo:hasOBONamespace>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The amount of uric acid, a heterocyclic compound of carbon, nitrogen, oxygen, and hydrogen,the end product of purine catabolism, in a specified sample of blood, the fluid that circulates through the heart, arteries, capillaries and veins carrying nutrients and oxygen to the body tissues and metabolites away from them.</obo:IAO_0000115>
+        <obo:created_by rdf:datatype="&xsd;string">mshimoyama</obo:created_by>
+        <obo:IAO_0000412 rdf:resource="&obo;cmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000538 -->
+
+    <owl:Class rdf:about="&obo;CMO_0000538">
+        <rdfs:label rdf:datatype="&xsd;string">blood creatinine level</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CMO_0000023"/>
+        <obo:creation_date rdf:datatype="&xsd;string">2011-10-28T04:31:55Z</obo:creation_date>
+        <obo:hasDbXref rdf:datatype="&xsd;string">CHEBI:16737</obo:hasDbXref>
+        <obo:id rdf:datatype="&xsd;string">CMO:0000538</obo:id>
+        <obo:hasOBONamespace rdf:datatype="&xsd;string">Clinical_Measurement.ontology</obo:hasOBONamespace>
+        <obo:created_by rdf:datatype="&xsd;string">mshimoyama</obo:created_by>
+        <obo:IAO_0000412 rdf:resource="&obo;cmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000548 -->
+
+    <owl:Class rdf:about="&obo;CMO_0000548">
+        <rdfs:label rdf:datatype="&xsd;string">plasma triglyceride level</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CMO_0000050"/>
+        <obo:creation_date rdf:datatype="&xsd;string">2011-11-02T02:46:40Z</obo:creation_date>
+        <obo:id rdf:datatype="&xsd;string">CMO:0000548</obo:id>
+        <obo:hasOBONamespace rdf:datatype="&xsd;string">Clinical_Measurement.ontology</obo:hasOBONamespace>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The amount of triglycerides in a specified volume of plasma, the fibrinogen-containing fluid portion of the blood in which the particulate components are suspended. Triglycerides are any of a group of lipids that are esters formed from one molecule of glycerol and three molecules of one or more fatty acids, are widespread in adipose tissue, and commonly circulate in the blood in the form of lipoproteins.</obo:IAO_0000115>
+        <obo:created_by rdf:datatype="&xsd;string">mshimoyama</obo:created_by>
+        <obo:IAO_0000412 rdf:resource="&obo;cmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000550 -->
+
+    <owl:Class rdf:about="&obo;CMO_0000550">
+        <rdfs:label rdf:datatype="&xsd;string">serum albumin level</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CMO_0000028"/>
+        <obo:creation_date rdf:datatype="&xsd;string">2011-11-02T02:48:13Z</obo:creation_date>
+        <obo:id rdf:datatype="&xsd;string">CMO:0000550</obo:id>
+        <obo:hasOBONamespace rdf:datatype="&xsd;string">Clinical_Measurement.ontology</obo:hasOBONamespace>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The amount of albumin in a specified sample of serum, the clear liquid that separates from blood after it has clotted completely, i.e. blood plasma from which fibrinogen has been removed.</obo:IAO_0000115>
+        <obo:created_by rdf:datatype="&xsd;string">mshimoyama</obo:created_by>
+        <obo:IAO_0000412 rdf:resource="&obo;cmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000575 -->
+
+    <owl:Class rdf:about="&obo;CMO_0000575">
+        <rdfs:label rdf:datatype="&xsd;string">serum alanine aminotransferase activity level</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CMO_0000064"/>
+        <obo:creation_date rdf:datatype="&xsd;string">2011-11-02T04:10:11Z</obo:creation_date>
+        <obo:id rdf:datatype="&xsd;string">CMO:0000575</obo:id>
+        <obo:hasOBONamespace rdf:datatype="&xsd;string">Clinical_Measurement.ontology</obo:hasOBONamespace>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The amount of ezymatic activity of glutamic-pyruvate transaminase enzyme, commonly known as alanine transaminase or alanine aminotransferase (ALT), enzyme in a specified sample of serum. ALT catalyzes the reversible transamination between alanine and 2-oxoglutarate to generate pyruvate and glutamate. Serum ALT level is used as an enzymatic marker for  liver disease or damage.</obo:IAO_0000115>
+        <obo:created_by rdf:datatype="&xsd;string">mshimoyama</obo:created_by>
+        <obo:hasRelatedSynonym rdf:datatype="&xsd;string">serum ALT activity level</obo:hasRelatedSynonym>
+        <obo:hasRelatedSynonym rdf:datatype="&xsd;string">serum GPT activity level</obo:hasRelatedSynonym>
+        <obo:hasExactSynonym rdf:datatype="&xsd;string">serum alanine transaminase activity level</obo:hasExactSynonym>
+        <obo:hasExactSynonym rdf:datatype="&xsd;string">serum glutamic-pyruvate transaminase activity level</obo:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="&obo;cmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000586 -->
+
+    <owl:Class rdf:about="&obo;CMO_0000586">
+        <rdfs:label rdf:datatype="&xsd;string">plasma urea nitrogen level</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CMO_0000023"/>
+        <obo:creation_date rdf:datatype="&xsd;string">2011-11-02T04:23:54Z</obo:creation_date>
+        <obo:hasBroadSynonym rdf:datatype="&xsd;string">BUN level</obo:hasBroadSynonym>
+        <obo:id rdf:datatype="&xsd;string">CMO:0000586</obo:id>
+        <obo:hasOBONamespace rdf:datatype="&xsd;string">Clinical_Measurement.ontology</obo:hasOBONamespace>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The level of urea, the chief nitrogenous end product of protein metabolism, measured in a specific volume of plasma, the fibrinogen-containing fluid portion of the blood in which the particulate components are suspended. Urea is formed in the liver from amino acids and from ammonia compounds and is found in urine, blood, and lymph.</obo:IAO_0000115>
+        <obo:created_by rdf:datatype="&xsd;string">mshimoyama</obo:created_by>
+        <obo:IAO_0000412 rdf:resource="&obo;cmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000588 -->
+
+    <owl:Class rdf:about="&obo;CMO_0000588">
+        <rdfs:label rdf:datatype="&xsd;string">plasma hemoglobin level</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CMO_0000028"/>
+        <obo:creation_date rdf:datatype="&xsd;string">2011-11-02T04:24:55Z</obo:creation_date>
+        <obo:id rdf:datatype="&xsd;string">CMO:0000588</obo:id>
+        <obo:hasOBONamespace rdf:datatype="&xsd;string">Clinical_Measurement.ontology</obo:hasOBONamespace>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The amount of hemoglobin, the oxygen carrying pigment of erythrocytes, found in a specified volume of plasma, the fibrinogen-containing fluid portion of the blood in which the particulate components are suspended.</obo:IAO_0000115>
+        <obo:created_by rdf:datatype="&xsd;string">mshimoyama</obo:created_by>
+        <obo:hasExactSynonym rdf:datatype="&xsd;string">plasma haemoglobin level</obo:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="&obo;cmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0001325 -->
+
+    <owl:Class rdf:about="&obo;CMO_0001325">
+        <rdfs:label rdf:datatype="&xsd;string">base excess</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CMO_0000379"/>
+        <obo:creation_date rdf:datatype="&xsd;string">2013-01-09T16:44:56Z</obo:creation_date>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A measure of the deviation from normal blood acid-base balance expressed as the amount of acid required to titrate a sample of whole arterial blood to its normal pH.</obo:IAO_0000115>
+        <obo:id rdf:datatype="&xsd;string">CMO:0001325</obo:id>
+        <obo:hasOBONamespace rdf:datatype="&xsd;string">Clinical_Measurement.ontology</obo:hasOBONamespace>
+        <obo:created_by rdf:datatype="&xsd;string">JSmith</obo:created_by>
+        <obo:IAO_0000412 rdf:resource="&obo;cmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0001495 -->
+
+    <owl:Class rdf:about="&obo;CMO_0001495">
+        <rdfs:label rdf:datatype="&xsd;string">blood mononuclear cell count</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CMO_0000366"/>
+        <rdfs:subClassOf rdf:resource="&obo;CMO_0002119"/>
+        <obo:creation_date rdf:datatype="&xsd;string">2013-01-28T16:41:10Z</obo:creation_date>
+        <obo:id rdf:datatype="&xsd;string">CMO:0001495</obo:id>
+        <obo:hasOBONamespace rdf:datatype="&xsd;string">Clinical_Measurement.ontology</obo:hasOBONamespace>
+        <obo:created_by rdf:datatype="&xsd;string">JSmith</obo:created_by>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Measurement of the number of white blood cells, including lymphocytes and monocytes, with a single round or oval nucleus in a specified volume of blood.</obo:IAO_0000115>
+        <obo:hasRelatedSynonym rdf:datatype="&xsd;string">mononuclear leukocyte count</obo:hasRelatedSynonym>
+        <obo:IAO_0000412 rdf:resource="&obo;cmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0001865 -->
+
+    <owl:Class rdf:about="&obo;CMO_0001865">
+        <rdfs:label rdf:datatype="&xsd;string">immune cell count</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CMO_0000000"/>
+        <obo:creation_date rdf:datatype="&xsd;string">2013-11-07T16:12:26Z</obo:creation_date>
+        <obo:id rdf:datatype="&xsd;string">CMO:0001865</obo:id>
+        <obo:hasOBONamespace rdf:datatype="&xsd;string">Clinical_Measurement.ontology</obo:hasOBONamespace>
+        <obo:created_by rdf:datatype="&xsd;string">JSmith</obo:created_by>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The number of immune cells in a specified sample.  An immune cell is any cell involved in the immune system, a complex set of interconnected and interdependent cellular and molecular components having the primary functions of distinguishing self from not self and of defense against foreign organisms or substances. A cell is a membrane-enclosed protoplasmic mass constituting the smallest structural unit of an organism that is capable of independent functioning.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;cmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0002048 -->
+
+    <owl:Class rdf:about="&obo;CMO_0002048">
+        <rdfs:label rdf:datatype="&xsd;string">blood sterol level</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CMO_0000023"/>
+        <rdfs:subClassOf rdf:resource="&obo;CMO_0000050"/>
+        <obo:creation_date rdf:datatype="&xsd;string">2014-01-23T17:03:36Z</obo:creation_date>
+        <obo:id rdf:datatype="&xsd;string">CMO:0002048</obo:id>
+        <obo:hasOBONamespace rdf:datatype="&xsd;string">Clinical_Measurement.ontology</obo:hasOBONamespace>
+        <obo:created_by rdf:datatype="&xsd;string">JSmith</obo:created_by>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The amount of sterol, any of a group of steroids with a long (8 to 10 carbons) aliphatic side-chain at position 17 and at least one alcoholic group, in a specified sample of blood.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;cmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0002119 -->
+
+    <owl:Class rdf:about="&obo;CMO_0002119">
+        <rdfs:label rdf:datatype="&xsd;string">mononuclear cell count</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CMO_0000227"/>
+        <rdfs:subClassOf rdf:resource="&obo;CMO_0001865"/>
+        <obo:creation_date rdf:datatype="&xsd;string">2014-01-27T15:49:38Z</obo:creation_date>
+        <obo:id rdf:datatype="&xsd;string">CMO:0002119</obo:id>
+        <obo:hasOBONamespace rdf:datatype="&xsd;string">Clinical_Measurement.ontology</obo:hasOBONamespace>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Determination of the number of mononuclear cells, i.e. leukocytes such as lymphocytes and monocytes with a single round or oval nucleus (including but not limited to such cells found in blood, lymph or spleen) found in a specified sample.</obo:IAO_0000115>
+        <obo:created_by rdf:datatype="&xsd;string">JSmith</obo:created_by>
+        <obo:hasRelatedSynonym rdf:datatype="&xsd;string">mononuclear cell number</obo:hasRelatedSynonym>
+        <obo:IAO_0000412 rdf:resource="&obo;cmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0002241 -->
+
+    <owl:Class rdf:about="&obo;CMO_0002241">
+        <rdfs:label rdf:datatype="&xsd;string">serum gamma-glutamyltransferase activity level</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CMO_0000064"/>
+        <obo:creation_date rdf:datatype="&xsd;string">2014-03-11T14:10:11Z</obo:creation_date>
+        <obo:id rdf:datatype="&xsd;string">CMO:0002241</obo:id>
+        <obo:hasOBONamespace rdf:datatype="&xsd;string">Clinical_Measurement.ontology</obo:hasOBONamespace>
+        <obo:created_by rdf:datatype="&xsd;string">JSmith</obo:created_by>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The amount of enzymatic activity of gamma-glutamyltransferase (GGT) in a specified sample of serum. GGT catalyzes the transfer of the gamma-glutamyl moiety of glutathione to an acceptor such as amino acid, a peptide or water. Serum GGT level is used as an enzymatic marker for liver disease or damage.</obo:IAO_0000115>
+        <obo:hasRelatedSynonym rdf:datatype="&xsd;string">serum GGT activity level</obo:hasRelatedSynonym>
+        <obo:hasRelatedSynonym rdf:datatype="&xsd;string">serum GGTP activity level</obo:hasRelatedSynonym>
+        <obo:hasExactSynonym rdf:datatype="&xsd;string">serum gamma-glutamyl transpeptidase activity level</obo:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="&obo;cmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0002280 -->
+
+    <owl:Class rdf:about="&obo;CMO_0002280">
+        <rdfs:label rdf:datatype="&xsd;string">blood cholesterol level</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CMO_0002048"/>
+        <obo:creation_date rdf:datatype="&xsd;string">2014-03-24T13:34:25Z</obo:creation_date>
+        <obo:id rdf:datatype="&xsd;string">CMO:0002280</obo:id>
+        <obo:hasOBONamespace rdf:datatype="&xsd;string">Clinical_Measurement.ontology</obo:hasOBONamespace>
+        <obo:created_by rdf:datatype="&xsd;string">JSmith</obo:created_by>
+        <obo:hasRelatedSynonym rdf:datatype="&xsd;string">Not4Curation</obo:hasRelatedSynonym>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The amount of cholesterol, a eukaryotic sterol that in higher animals is the precursor of bile acids and steroid hormones and a key constituent of cell membranes, in a specified sample of blood. Cholesterol in the blood is generally associated with various lipoproteins.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;cmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0002334 -->
+
+    <owl:Class rdf:about="&obo;CMO_0002334">
+        <rdfs:label rdf:datatype="&xsd;string">total plasma bilirubin level</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CMO_0000023"/>
+        <obo:creation_date rdf:datatype="&xsd;string">2014-04-23T15:50:10Z</obo:creation_date>
+        <obo:id rdf:datatype="&xsd;string">CMO:0002334</obo:id>
+        <obo:hasOBONamespace rdf:datatype="&xsd;string">Clinical_Measurement.ontology</obo:hasOBONamespace>
+        <obo:created_by rdf:datatype="&xsd;string">JSmith</obo:created_by>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The complete or entire amount of bilirubin in a specified volume of plasma, the fibrinogen-containing fluid portion of the blood in which the particulate components are suspended. Bilirubin is the bile pigment produced by breakdown of heme and reduction of biliverdin.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;cmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0002341 -->
+
+    <owl:Class rdf:about="&obo;CMO_0002341">
+        <rdfs:label rdf:datatype="&xsd;string">white blood cell measurement</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CMO_0000036"/>
+        <obo:creation_date rdf:datatype="&xsd;string">2014-04-24T12:47:44Z</obo:creation_date>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Any value resulting from the quantification of a morphological or physiological parameter of leukocytes, largely colorless blood corpuscles capable of ameboid movement, whose chief function is to protect the body against microorganisms and other disease-causing entities.</obo:IAO_0000115>
+        <obo:id rdf:datatype="&xsd;string">CMO:0002341</obo:id>
+        <obo:hasOBONamespace rdf:datatype="&xsd;string">Clinical_Measurement.ontology</obo:hasOBONamespace>
+        <obo:created_by rdf:datatype="&xsd;string">JSmith</obo:created_by>
+        <obo:hasExactSynonym rdf:datatype="&xsd;string">leukocyte measurement</obo:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="&obo;cmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0002349 -->
+
+    <owl:Class rdf:about="&obo;CMO_0002349">
+        <rdfs:label rdf:datatype="&xsd;string">blood differential leukocyte count to total leukocyte count ratio</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CMO_0000024"/>
+        <obo:creation_date rdf:datatype="&xsd;string">2014-05-13T18:19:12Z</obo:creation_date>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A calculated measurement in which the number of white blood cells of one or more specific types in a specified sample of blood is divided by the total number of white blood cells in the sample, and the result presented as a ratio, fraction, quotient or percentage.</obo:IAO_0000115>
+        <obo:id rdf:datatype="&xsd;string">CMO:0002349</obo:id>
+        <obo:hasOBONamespace rdf:datatype="&xsd;string">Clinical_Measurement.ontology</obo:hasOBONamespace>
+        <obo:created_by rdf:datatype="&xsd;string">JSmith</obo:created_by>
+        <obo:hasRelatedSynonym rdf:datatype="&xsd;string">Not4Curation</obo:hasRelatedSynonym>
+        <obo:hasRelatedSynonym rdf:datatype="&xsd;string">blood differential leukocyte count  to total WBC count ratio</obo:hasRelatedSynonym>
+        <obo:hasRelatedSynonym rdf:datatype="&xsd;string">blood differential leukocyte count as percentage of total white blood cells</obo:hasRelatedSynonym>
+        <obo:hasRelatedSynonym rdf:datatype="&xsd;string">differential white blood cell percentage</obo:hasRelatedSynonym>
+        <obo:IAO_0000412 rdf:resource="&obo;cmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000109 -->
+
+    <owl:Class rdf:about="&obo;IAO_0000109"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ORDI_0000014 -->
+
+    <owl:Class rdf:about="&obo;ORDI_0000014"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+
