@@ -174,6 +174,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ORDI_0000306 -->
+
+    <owl:DatatypeProperty rdf:about="&obo;ORDI_0000306">
+        <rdfs:label xml:lang="en">has FEV1% value</rdfs:label>
+        <obo:IAO_0000117>Hong Yu, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000115>a data property that represents the value of FEV%.</obo:IAO_0000115>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -574,39 +584,6 @@
         <obo:ORDI_0000089>诊断过程</obo:ORDI_0000089>
         <obo:IAO_0000115>A planned process that identifies the nature of an illness, symptom, and/or sign.</obo:IAO_0000115>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Medical_diagnosis</obo:IAO_0000119>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OHMI_0000001 -->
-
-    <owl:Class rdf:about="&obo;OHMI_0000001">
-        <rdfs:label xml:lang="en">patient</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&obo;NCBITaxon_9606"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;RO_0000087"/>
-                        <owl:someValuesFrom rdf:resource="&obo;OMRSE_00000011"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_9606"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="&obo;OHMI_0000001"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="&obo;OMRSE_00000011"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:ORDI_0000089>病人</obo:ORDI_0000089>
     </owl:Class>
     
 
@@ -1022,8 +999,9 @@
     <!-- http://purl.obolibrary.org/obo/ORDI_0000033 -->
 
     <owl:Class rdf:about="&obo;ORDI_0000033">
-        <rdfs:label xml:lang="en">percent predicted porced expiratory volume in 1 second(FEV1% predicted)</rdfs:label>
+        <rdfs:label xml:lang="en">FEV1% predicted</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;ORDI_0000198"/>
+        <obo:IAO_0000118>percent predicted porced expiratory volume in 1 second</obo:IAO_0000118>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/FEV1/FVC_ratio</obo:IAO_0000119>
         <obo:ORDI_0000089>第1秒呼气容积占预计值百分比</obo:ORDI_0000089>
         <obo:IAO_0000117>Hong Yu, Haihe Wang, Yongqun He</obo:IAO_0000117>
@@ -1340,14 +1318,14 @@
         <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_9606"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="&obo;ORDI_0000055"/>
+                <owl:onProperty rdf:resource="&obo;ORDI_0000187"/>
+                <owl:someValuesFrom rdf:resource="&obo;ENVO_02000112"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;ORDI_0000187"/>
-                <owl:someValuesFrom rdf:resource="&obo;ENVO_02000112"/>
+                <owl:onProperty rdf:resource="&obo;RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="&obo;ORDI_0000055"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Hong Yu, Haihe Wang, Yongqun He</obo:IAO_0000117>
@@ -1529,14 +1507,14 @@
         <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_9606"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="&obo;ORDI_0000068"/>
+                <owl:onProperty rdf:resource="&obo;ORDI_0000187"/>
+                <owl:someValuesFrom rdf:resource="&obo;ENVO_00002008"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;ORDI_0000187"/>
-                <owl:someValuesFrom rdf:resource="&obo;ENVO_00002008"/>
+                <owl:onProperty rdf:resource="&obo;RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="&obo;ORDI_0000068"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:ORDI_0000089>矿工</obo:ORDI_0000089>
@@ -1667,14 +1645,14 @@
         <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_9606"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="&obo;ORDI_0000074"/>
+                <owl:onProperty rdf:resource="&obo;ORDI_0000187"/>
+                <owl:someValuesFrom rdf:resource="&obo;ENVO_00002008"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;ORDI_0000187"/>
-                <owl:someValuesFrom rdf:resource="&obo;ENVO_00002008"/>
+                <owl:onProperty rdf:resource="&obo;RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="&obo;ORDI_0000074"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Farmer</obo:IAO_0000119>
@@ -2021,8 +1999,8 @@ The features of right ventricular enlargement on plain radiograph include: Front
     <!-- http://purl.obolibrary.org/obo/ORDI_0000099 -->
 
     <owl:Class rdf:about="&obo;ORDI_0000099">
-        <rdfs:label xml:lang="en">X-ray-detected abnormal cardiovascular morphology result</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;OGMS_0000017"/>
+        <rdfs:label xml:lang="en">chest X-ray-detected abnormal cardiovascular morphology result</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ORDI_0000197"/>
         <obo:ORDI_0000089>X线表现：不正常的心血管形态</obo:ORDI_0000089>
         <obo:IAO_0000117>Hong Yu, Haihe Wang, Yongqun He</obo:IAO_0000117>
         <efo:definition>Any structural anomaly of cardiovascular system detected by X-ray.</efo:definition>
@@ -2091,7 +2069,7 @@ The features of right ventricular enlargement on plain radiograph include: Front
     <!-- http://purl.obolibrary.org/obo/ORDI_0000104 -->
 
     <owl:Class rdf:about="&obo;ORDI_0000104">
-        <rdfs:label xml:lang="en">smoking duration time</rdfs:label>
+        <rdfs:label xml:lang="en">smoking duration time(year)</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;BFO_0000038"/>
         <rdfs:seeAlso>OBIB_0000053</rdfs:seeAlso>
         <obo:ORDI_0000089>规律吸烟时间</obo:ORDI_0000089>
@@ -2348,7 +2326,7 @@ The features of right ventricular enlargement on plain radiograph include: Front
 
     <owl:Class rdf:about="&obo;ORDI_0000123">
         <rdfs:label xml:lang="en">chest X-ray-detected respiratory system morphology result</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;OGMS_0000017"/>
+        <rdfs:subClassOf rdf:resource="&obo;ORDI_0000197"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000312"/>
@@ -2797,7 +2775,7 @@ rounding of the cardiac apex; Hoffman-Rigler sign; Shmoo sign.</efo:definition>
 
     <owl:Class rdf:about="&obo;ORDI_0000157">
         <rdfs:label xml:lang="en">history of COPD medication</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;ORDI_0000156"/>
+        <rdfs:subClassOf rdf:resource="&obo;ORDI_0000300"/>
         <obo:ORDI_0000089>慢性阻塞性肺疾病用药史</obo:ORDI_0000089>
         <obo:IAO_0000117>Hong Yu, Haihe Wang, Yongqun He</obo:IAO_0000117>
     </owl:Class>
@@ -2808,7 +2786,7 @@ rounding of the cardiac apex; Hoffman-Rigler sign; Shmoo sign.</efo:definition>
 
     <owl:Class rdf:about="&obo;ORDI_0000158">
         <rdfs:label xml:lang="en">history of asthma medication</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;ORDI_0000156"/>
+        <rdfs:subClassOf rdf:resource="&obo;ORDI_0000300"/>
         <obo:ORDI_0000089>支气管哮喘用药史</obo:ORDI_0000089>
         <obo:IAO_0000117>Hong Yu, Haihe Wang, Yongqun He</obo:IAO_0000117>
     </owl:Class>
@@ -2819,7 +2797,7 @@ rounding of the cardiac apex; Hoffman-Rigler sign; Shmoo sign.</efo:definition>
 
     <owl:Class rdf:about="&obo;ORDI_0000159">
         <rdfs:label xml:lang="en">history of ACOS medication</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;ORDI_0000156"/>
+        <rdfs:subClassOf rdf:resource="&obo;ORDI_0000300"/>
         <obo:IAO_0000117>Hong Yu, Haihe Wang, Yongqun He</obo:IAO_0000117>
         <obo:ORDI_0000089>支气管哮喘-慢性阻塞性肺疾病重叠综合征用药史</obo:ORDI_0000089>
     </owl:Class>
@@ -3204,7 +3182,7 @@ symptoms or signs of an increased reversibility of the obstruction.  ACOS may be
     <!-- http://purl.obolibrary.org/obo/ORDI_0000191 -->
 
     <owl:Class rdf:about="&obo;ORDI_0000191">
-        <rdfs:label xml:lang="en">positive result of diagnosis of essential hypertension in comorbiidity</rdfs:label>
+        <rdfs:label xml:lang="en">positive result of diagnosis of essential hypertension in comorbidity</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;ORDI_0000193"/>
     </owl:Class>
     
@@ -3213,7 +3191,7 @@ symptoms or signs of an increased reversibility of the obstruction.  ACOS may be
     <!-- http://purl.obolibrary.org/obo/ORDI_0000192 -->
 
     <owl:Class rdf:about="&obo;ORDI_0000192">
-        <rdfs:label xml:lang="en">negative result of diagnosis of essential hypertension in comorbiidity</rdfs:label>
+        <rdfs:label xml:lang="en">negative result of diagnosis of essential hypertension in comorbidity</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;ORDI_0000193"/>
     </owl:Class>
     
@@ -3254,6 +3232,29 @@ symptoms or signs of an increased reversibility of the obstruction.  ACOS may be
         <obo:ORDI_0000089>无职业暴露</obo:ORDI_0000089>
         <obo:IAO_0000117>Hong Yu, Haihe Wang, Yongqun He</obo:IAO_0000117>
         <obo:IAO_0000115>An occupational exposure that does not involve in any environmental factor such as dust and fume.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ORDI_0000196 -->
+
+    <owl:Class rdf:about="&obo;ORDI_0000196">
+        <rdfs:label xml:lang="en">diagnosis of bronchitis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ORDI_0000155"/>
+        <obo:ORDI_0000089>疾病诊断：支气管炎</obo:ORDI_0000089>
+        <obo:IAO_0000117>Hong Yu, Haihe Wang, Yongqun He</obo:IAO_0000117>
+        <efo:definition>A diagnosis of disease that means a patient is diagnosed as bronchitis</efo:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ORDI_0000197 -->
+
+    <owl:Class rdf:about="&obo;ORDI_0000197">
+        <rdfs:label xml:lang="en">chest X-ray measurement result</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OGMS_0000017"/>
+        <obo:ORDI_0000089>胸片结果</obo:ORDI_0000089>
+        <obo:IAO_0000117>Hong Yu, Haihe Wang, Yongqun He</obo:IAO_0000117>
     </owl:Class>
     
 
@@ -3608,14 +3609,14 @@ symptoms or signs of an increased reversibility of the obstruction.  ACOS may be
         <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_9606"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;ORDI_0000187"/>
-                <owl:someValuesFrom rdf:resource="&obo;ENVO_00002008"/>
+                <owl:onProperty rdf:resource="&obo;RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="&obo;ORDI_0000225"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="&obo;ORDI_0000225"/>
+                <owl:onProperty rdf:resource="&obo;ORDI_0000187"/>
+                <owl:someValuesFrom rdf:resource="&obo;ENVO_00002008"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:ORDI_0000089>职业司机</obo:ORDI_0000089>
@@ -3722,8 +3723,8 @@ symptoms or signs of an increased reversibility of the obstruction.  ACOS may be
     <!-- http://purl.obolibrary.org/obo/ORDI_0000232 -->
 
     <owl:Class rdf:about="&obo;ORDI_0000232">
-        <rdfs:label xml:lang="en">normal blood measurement result</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;ORDI_0000264"/>
+        <rdfs:label xml:lang="en">blood lipid abnormally increased</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ORDI_0000265"/>
     </owl:Class>
     
 
@@ -3743,7 +3744,7 @@ symptoms or signs of an increased reversibility of the obstruction.  ACOS may be
 
     <owl:Class rdf:about="&obo;ORDI_0000234">
         <rdfs:label xml:lang="en">history of no medication for COPD treatment</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;ORDI_0000156"/>
+        <rdfs:subClassOf rdf:resource="&obo;ORDI_0000300"/>
     </owl:Class>
     
 
@@ -4054,7 +4055,7 @@ symptoms or signs of an increased reversibility of the obstruction.  ACOS may be
     <!-- http://purl.obolibrary.org/obo/ORDI_0000256 -->
 
     <owl:Class rdf:about="&obo;ORDI_0000256">
-        <rdfs:label xml:lang="en">history of Allergic rhinitis</rdfs:label>
+        <rdfs:label xml:lang="en">history of allergic rhinitis</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;ORDI_0000253"/>
     </owl:Class>
     
@@ -4456,6 +4457,179 @@ symptoms or signs of an increased reversibility of the obstruction.  ACOS may be
         <obo:IAO_0000117>Hong Yu, Haihe Wang, Yongqun He</obo:IAO_0000117>
         <obo:ORDI_0000089>疾病诊断：肺炎</obo:ORDI_0000089>
         <efo:definition>A diagnosis of disease that means a patient is diagnosed as pneumonia&apos;</efo:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ORDI_0000296 -->
+
+    <owl:Class rdf:about="&obo;ORDI_0000296">
+        <rdfs:label xml:lang="en">history of chronic bronchitis medication</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ORDI_0000300"/>
+        <obo:ORDI_0000089>慢性支气管炎用药史</obo:ORDI_0000089>
+        <obo:IAO_0000117>Hong Yu, Haihe Wang, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ORDI_0000297 -->
+
+    <owl:Class rdf:about="&obo;ORDI_0000297">
+        <rdfs:label xml:lang="en">history of chronic bronchitis medication using anti-infective agent  and Chinese herb</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ORDI_0000296"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ORDI_0000298 -->
+
+    <owl:Class rdf:about="&obo;ORDI_0000298">
+        <rdfs:label xml:lang="en">history of chronic bronchitis medication using anti-infective agent</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ORDI_0000296"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ORDI_0000299 -->
+
+    <owl:Class rdf:about="&obo;ORDI_0000299">
+        <rdfs:label xml:lang="en">history of asthma medication using anti-infective agent and ICS+LABA</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ORDI_0000158"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ORDI_0000300 -->
+
+    <owl:Class rdf:about="&obo;ORDI_0000300">
+        <rdfs:label xml:lang="en">medication history of chronic respriatory disease</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ORDI_0000156"/>
+        <obo:ORDI_0000089>慢性呼吸疾病用药史</obo:ORDI_0000089>
+        <obo:IAO_0000117>Hong Yu, Haihe Wang, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ORDI_0000301 -->
+
+    <owl:Class rdf:about="&obo;ORDI_0000301">
+        <rdfs:label xml:lang="en">history of no medication for ACOS treatment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ORDI_0000300"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ORDI_0000302 -->
+
+    <owl:Class rdf:about="&obo;ORDI_0000302">
+        <rdfs:label xml:lang="en">history of ACOS medication using anti-infective agent</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ORDI_0000159"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ORDI_0000303 -->
+
+    <owl:Class rdf:about="&obo;ORDI_0000303">
+        <rdfs:label xml:lang="en">history of ACOS medication using Chinese herb</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ORDI_0000159"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ORDI_0000304 -->
+
+    <owl:Class rdf:about="&obo;ORDI_0000304">
+        <rdfs:label xml:lang="en">history of ACOS medication using anti-infective agent and corticosteroid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ORDI_0000159"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ORDI_0000305 -->
+
+    <owl:Class rdf:about="&obo;ORDI_0000305">
+        <rdfs:label xml:lang="en">history of chronic bronchitis medication using anti-infective agent and theophylline</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ORDI_0000296"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ORDI_0000307 -->
+
+    <owl:Class rdf:about="&obo;ORDI_0000307">
+        <rdfs:label xml:lang="en">lung functional abnormality</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0002795"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ORDI_0000308 -->
+
+    <owl:Class rdf:about="&obo;ORDI_0000308">
+        <rdfs:label xml:lang="en">mild lung functional abnormality</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ORDI_0000307"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000053"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;ORDI_0000309"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;ORDI_0000306"/>
+                                <owl:someValuesFrom>
+                                    <rdfs:Datatype>
+                                        <owl:onDatatype rdf:resource="&xsd;decimal"/>
+                                        <owl:withRestrictions rdf:parseType="Collection">
+                                            <rdf:Description>
+                                                <xsd:maxExclusive rdf:datatype="&xsd;decimal">92</xsd:maxExclusive>
+                                            </rdf:Description>
+                                            <rdf:Description>
+                                                <xsd:minInclusive rdf:datatype="&xsd;decimal">70</xsd:minInclusive>
+                                            </rdf:Description>
+                                        </owl:withRestrictions>
+                                    </rdfs:Datatype>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ORDI_0000309 -->
+
+    <owl:Class rdf:about="&obo;ORDI_0000309">
+        <rdfs:label xml:lang="en">patient</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;NCBITaxon_9606"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;RO_0000087"/>
+                        <owl:someValuesFrom rdf:resource="&obo;OMRSE_00000011"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_9606"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="&obo;OMRSE_00000011"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="&obo;ORDI_0000309"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:ORDI_0000089>病人</obo:ORDI_0000089>
     </owl:Class>
     
 

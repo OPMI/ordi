@@ -18,7 +18,7 @@ http://purl.obolibrary.org/obo/BFO_0000038 #one-dimensional temporal region
 http://purl.obolibrary.org/obo/OBI_0100026 #organism
 http://purl.obolibrary.org/obo/BFO_0000182 #history
 http://purl.obolibrary.org/obo/OBI_0000075 #diagnosis textual entity
-
+http://purl.obolibrary.org/obo/OBI_0000659 #specimen collection
 
 
 
